@@ -746,7 +746,44 @@
       </article>`;
   }
 
+  function defsHTML(data) {
+    var items = Array.isArray(data.items) ? data.items : [];
+    var cards = items.map(function (it) {
+      var extra = it.extra
+        ? `<span class="qs-defs-extra">${esc(it.extra)}</span>`
+        : '';
+      return `<article class="qs-defs-card">
+        <div class="qs-defs-top">
+          ${it.tag ? `<span class="qs-defs-tag">${esc(it.tag)}</span>` : ''}
+          <div class="qs-defs-metric">
+            <b>${esc(it.metric || '')}</b>
+            ${it.unit ? `<small>${esc(it.unit)}</small>` : ''}
+          </div>
+          ${extra}
+        </div>
+        <div class="qs-defs-body">
+          <h3>${esc(it.title || '')}</h3>
+          ${it.text ? `<p>${esc(it.text)}</p>` : ''}
+        </div>
+      </article>`;
+    }).join('');
+    return `
+      <article class="qs-screen is-content is-defs" data-qs-root data-type="content">
+        <div class="qs-defs">
+          <header class="qs-defs-head">
+            ${data.kicker ? `<span class="qs-defs-kicker">${esc(data.kicker)}</span>` : ''}
+            <h2>${esc(data.title || '')}</h2>
+            ${data.body ? `<p>${esc(data.body)}</p>` : ''}
+          </header>
+          <div class="qs-defs-grid">${cards}</div>
+        </div>
+      </article>`;
+  }
+
   function contentHTML(data) {
+    if (data.layout === 'defs') {
+      return defsHTML(data);
+    }
     if (data.layout === 'bans') {
       return bansHTML(data);
     }

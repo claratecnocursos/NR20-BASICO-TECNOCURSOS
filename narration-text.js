@@ -17,9 +17,9 @@
   // "100%" vira extenso para a voz não ler "por cento" errado.
   var HOME_TEXT = [
     'Segurança do Trabalho.',
-    'N R dezoito. Treinamento de P T A, Plataforma de Trabalho Aéreo.',
+    'N R vinte. Segurança e saúde no trabalho com inflamáveis e combustíveis.',
     'Fundamentos e tipologia, checklist diário, operação segura, proteção contra quedas.',
-    'Quatro módulos completos. Treinamento cem por cento online.',
+    'Quatro módulos completos.',
     'Toque em iniciar o treinamento.'
   ].join(' ');
 

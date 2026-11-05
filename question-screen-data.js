@@ -1,21 +1,21 @@
 /**
- * Conteúdo da Trilha NR 18 — PEMT/PTA
+ * Conteúdo da Trilha NR 20 - Segurança e Saúde no Trabalho com Inflamáveis e Combustíveis
  * Tipos: cover | content | quiz-intro | question | finale
  */
 window.QUESTION_SCREEN_SESSION = {
   meta: {
-    title: "NR 18 — PEMT/PTA",
+    title: "NR 20 - Segurança e Saúde no Trabalho com Inflamáveis e Combustíveis",
     brand: "TecnoCursos",
     musicSrc: "musica/musica_foco.mp3"
   },
   modules: [
     {
       id: 1,
-      title: "Fundamentos Legais, Normativos e Tipologia das PEMT/PTA",
-      objective: "Capacitar o aluno sobre a sustentação legal da NR 18 (e seu histórico regulamentar), a definição técnica formal de PEMT/PTA, o escopo de aplicação, as responsabilidades de fabricantes, locadores e fornecedores, e a classificação detalhada dos modelos de plataformas.",
+      title: "Fundamentos da NR 20, Classificação e Propriedades Físico-Químicas dos Inflamáveis",
+      objective: "Apresentar a base regulamentar da NR 20, o campo de aplicação, as exceções legais, a classificação oficial das instalações industriais e a análise das propriedades físico-químicas, perigos e riscos dos produtos inflamáveis e combustíveis.",
       titleUnlock: {
         title: "FRASES NO LUGAR",
-        body: "Você separou o que a NR 18 afirma do que ela não permite.",
+        body: "Você separou o que a NR 20 afirma sobre inflamáveis, classes, GLP e FISPQ.",
         icon: "✓"
       },
       screens: [
@@ -24,65 +24,98 @@ window.QUESTION_SCREEN_SESSION = {
           type: "cover",
           image: "assets/fotos/capa-modulo1.png",
           imageAlt: "Capa do módulo 1",
-          title: "Módulo 1 — Fundamentos Legais, Normativos e Tipologia das PEMT/PTA",
-          subtitle: "Legislação da NR 18, definição de PEMT/PTA, deveres de fornecedores e modelos de plataforma.",
-          transcript: "Módulo 1. Fundamentos legais, normativos e tipologia das plataformas elevatórias móveis de trabalho. Legislação da NR 18, definição de PEMT e PTA, deveres de fornecedores e modelos de plataforma."
+          title: "Módulo 1 — Fundamentos da NR 20, Classificação e Propriedades Físico-Químicas dos Inflamáveis",
+          subtitle: "Base da NR 20, classificação das instalações e propriedades dos inflamáveis e combustíveis.",
+          transcript: "Módulo 1. Fundamentos da NR 20, classificação e propriedades físico-químicas dos inflamáveis. Base regulamentar, campo de aplicação, exceções legais, classificação das instalações e propriedades dos inflamáveis e combustíveis."
         },
         {
-          id: "nr18-m1-historico",
+          id: "nr20-m1-diretrizes",
           type: "video",
           kicker: "Vídeo",
-          title: "Introdução à NR 18 e o Histórico da Norma",
-          playerId: "panda-4aee45e2-0279-4b9c-8092-78acee241508",
-          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=4aee45e2-0279-4b9c-8092-78acee241508"
+          title: "Diretrizes Globais da NR 20: Objetivo, Público e Abrangência",
+          playerId: "panda-fe2f6d94-fe3c-4430-ac1e-a224fd5de180",
+          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=fe2f6d94-fe3c-4430-ac1e-a224fd5de180"
         },
         {
-          id: "nr18-m1-escopo",
-          type: "video",
-          kicker: "Vídeo",
-          title: "O que é uma PEMT/PTA e seu Escopo de Aplicação",
-          playerId: "panda-c6edebb9-d386-40a3-97c6-ad023d89d3c4",
-          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=c6edebb9-d386-40a3-97c6-ad023d89d3c4"
-        },
-        {
-          id: "nr18-m1-fornecedor",
-          type: "video",
-          kicker: "Vídeo",
-          title: "Deveres do Fornecedor, Locador e Regras dos Manuais",
-          playerId: "panda-842b4fb0-6b06-4013-a637-169d86851003",
-          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=842b4fb0-6b06-4013-a637-169d86851003"
-        },
-        {
-          id: "nr18-m1-plataformas",
+          id: "nr20-m1-definicoes",
           type: "content",
-          layout: "models",
-          kicker: "Equipamentos",
-          eyebrow: "Equipamentos",
-          title: "Modelos de Plataformas Elevatórias Móveis de Trabalho",
-          lines: ["Modelos de Plataformas", "Elevatórias"],
-          accent: "Móveis de Trabalho",
-          image: "assets/fotos/plataformas.jpg",
-          imageAlt: "Cinco modelos: Mastro, Telescópica, Tesoura, Unipessoal e Articulada",
-          transcript: "Equipamentos. Modelos de plataformas elevatórias móveis de trabalho. A tela mostra cinco modelos: mastro, telescópica, tesoura, unipessoal e articulada."
+          layout: "defs",
+          kicker: "Classificação",
+          title: "Definições",
+          body: "A NR 20 separa os produtos pelo ponto de fulgor e pela condição em que inflamam.",
+          items: [
+            {
+              tag: "Ponto de fulgor",
+              metric: "< 60",
+              unit: "°C",
+              title: "Líquidos inflamáveis",
+              text: "São líquidos que possuem ponto de fulgor menor que 60 °C."
+            },
+            {
+              tag: "No ar",
+              metric: "20",
+              unit: "°C",
+              extra: "101,3 kPa",
+              title: "Gases inflamáveis",
+              text: "Gases que inflamam com o ar a 20 °C e à pressão padrão de 101,3 kPa."
+            },
+            {
+              tag: "Ponto de fulgor",
+              metric: "60–93",
+              unit: "°C",
+              title: "Líquidos combustíveis",
+              text: "São líquidos com ponto de fulgor maior que 60 °C e menor que 93 °C."
+            }
+          ],
+          transcript: "Definições. A classificação da NR 20 separa os produtos pelo ponto de fulgor e pela condição em que inflamam. Líquidos inflamáveis são líquidos que possuem ponto de fulgor menor que 60 graus Celsius. Gases inflamáveis são gases que inflamam com o ar a 20 graus Celsius e a uma pressão padrão de 101,3 quilopascals. Líquidos combustíveis são líquidos com ponto de fulgor maior que 60 graus Celsius e menor que 93 graus Celsius."
         },
         {
-          id: "nr18-m1-verticais",
+          id: "nr20-m1-classes",
+          type: "content",
+          layout: "defs",
+          kicker: "Instalações",
+          title: "Classes das instalações",
+          body: "A NR 20 divide as instalações em três classes.",
+          items: [
+            {
+              tag: "Postos e depósitos",
+              metric: "I",
+              title: "Classe I",
+              text: "Postos de combustível e depósitos de gás de 2 a 60 toneladas ou líquidos de 10 a 5.000 m³."
+            },
+            {
+              tag: "Engarrafadoras e dutos",
+              metric: "II",
+              title: "Classe II",
+              text: "Engarrafadoras, transporte por dutos e estoques de gás até 600 toneladas ou líquidos até 50.000 m³."
+            },
+            {
+              tag: "Grandes plantas",
+              metric: "III",
+              title: "Classe III",
+              text: "Grandes plantas, como refinarias, petroquímicas e usinas de etanol."
+            }
+          ],
+          transcript: "Classes das instalações. A NR 20 divide as instalações em três classes. A Classe I inclui postos de combustível e depósitos de gás de 2 a 60 toneladas ou líquidos de 10 a 5.000 metros cúbicos. A Classe II engloba engarrafadoras, transporte por dutos e estoques de gás até 600 toneladas ou líquidos até 50.000 metros cúbicos. A Classe III reúne grandes plantas, como refinarias, petroquímicas e usinas de etanol."
+        },
+        {
+          id: "nr20-m1-glp",
           type: "video",
           kicker: "Vídeo",
-          title: "Modelos de Elevadores Verticais: Tesoura, Mastro e Unipessoal",
-          playerId: "panda-83961920-e851-4e8e-8074-49df531bcb86",
-          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=83961920-e851-4e8e-8074-49df531bcb86"
+          title: "Propriedades Físico-Químicas e Estudo de Caso: GLP",
+          playerId: "panda-20519fb0-8a21-4877-8f25-69e4a5a0c72a",
+          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=20519fb0-8a21-4877-8f25-69e4a5a0c72a"
         },
         {
-          id: "nr18-m1-lanca",
+          id: "nr20-m1-vapores",
           type: "video",
           kicker: "Vídeo",
-          title: "Modelos de Lança: Plataformas Articuladas e Telescópicas",
-          playerId: "panda-bf278218-5083-4cbc-9479-1e617da834e8",
-          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=bf278218-5083-4cbc-9479-1e617da834e8"
+          title: "Vapores Inflamáveis, Riscos de Explosão e Uso da FISPQ",
+          playerId: "panda-28244be0-088c-46f1-a702-559392f6352d",
+          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=28244be0-088c-46f1-a702-559392f6352d"
         },
         {
-          id: "nr18-m1-vf",
+          id: "nr20-m1-vf",
           type: "sort",
           vf: true,
           title: "Verdadeiro ou falso",
@@ -94,29 +127,29 @@ window.QUESTION_SCREEN_SESSION = {
           right: { id: "verdadeiro", label: "Verdadeiro", icon: "V" },
           items: [
             {
-              text: "A Portaria MTP 4.390, de 2022, é mais antiga que a Portaria 3.214.",
+              text: "A NR 20 vale para residência unifamiliar e para plataforma marítima de petróleo e gás.",
               bin: "falso",
-              hint: "1978 é o começo. A MTP 4.390 é de 2022."
+              hint: "Residência unifamiliar fica de fora. Plataforma marítima segue a NR-30."
             },
             {
-              text: "A PEMT é móvel, com cesto ou plataforma, erguida por lança metálica ou por estrutura em tesoura.",
+              text: "Líquido inflamável tem ponto de fulgor igual ou inferior a 60 °C.",
               bin: "verdadeiro",
-              hint: "É essa a definição: móvel, com estação de trabalho, na lança ou na tesoura."
+              hint: "Até 60 °C o líquido é inflamável. O combustível fica entre 60 °C e 93 °C."
             },
             {
-              text: "Este anexo da NR 18 também vale para plataformas em instalações elétricas energizadas.",
+              text: "Um depósito com 20.000 m³ de combustível é Classe I.",
               bin: "falso",
-              hint: "Instalação energizada fica de fora e segue norma própria."
+              hint: "Classe I vai até 5.000 m³ de líquido. 20.000 m³ é Classe II."
             },
             {
-              text: "Antes da venda, locação ou arrendamento, a PEMT é revisada conforme o fabricante, e cada entrega traz as instruções e a capacitação.",
+              text: "O cheiro do GLP vem do propano e do butano.",
+              bin: "falso",
+              hint: "Propano e butano são inodoros. O cheiro é da mercaptana."
+            },
+            {
+              text: "A FISPQ fica acessível no local de trabalho, com os riscos, os limites e as medidas de emergência.",
               bin: "verdadeiro",
-              hint: "Revisão, instruções e capacitação acompanham cada entrega."
-            },
-            {
-              text: "A unipessoal leva vários operadores, e a articulada é a lança reta sem dobras.",
-              bin: "falso",
-              hint: "A unipessoal é para um operador. Quem dobra por cima do obstáculo é a articulada. A lança reta é a telescópica."
+              hint: "A ficha de informação de segurança tem de estar acessível no trabalho."
             }
           ]
         }
@@ -124,8 +157,8 @@ window.QUESTION_SCREEN_SESSION = {
     },
     {
       id: 2,
-      title: "Requisitos Técnicos, Dispositivos de Segurança, Painel de Controle e Checklist Diário",
-      objective: "Apresentar todos os componentes de segurança exigidos por norma, as especificações técnicas de fabricação, o manuseio do painel de comando do cesto e a rotina sistemática do checklist pré-operacional diário.",
+      title: "Controle de Fontes de Ignição, Armazenamento Seguro e Medidas de Prevenção",
+      objective: "Mapear todas as potenciais fontes de ignição nos ambientes de trabalho e estabelecer as diretrizes técnicas para controle de engenharia, aterramento elétrico, armazenamento seguro de recipientes e manutenção preventiva.",
       titleUnlock: {
         title: "TURNO NO LUGAR",
         body: "Você separou o dispositivo obrigatório, o chassi travado, o painel e o checklist diário.",
@@ -137,9 +170,9 @@ window.QUESTION_SCREEN_SESSION = {
           type: "cover",
           image: "assets/fotos/capa-modulo2.png",
           imageAlt: "Capa do módulo 2",
-          title: "Módulo 2 — Requisitos Técnicos, Dispositivos de Segurança, Painel de Controle e Checklist Diário",
-          subtitle: "Dispositivos de segurança, painel do cesto e checklist pré-operacional diário.",
-          transcript: "Módulo 2. Requisitos técnicos, dispositivos de segurança, painel de controle e checklist diário. Dispositivos de segurança, painel do cesto e checklist pré-operacional diário."
+          title: "Módulo 2 — Controle de Fontes de Ignição, Armazenamento Seguro e Medidas de Prevenção",
+          subtitle: "Fontes de ignição, aterramento elétrico, armazenamento de recipientes e manutenção preventiva.",
+          transcript: "Módulo 2. Controle de fontes de ignição, armazenamento seguro e medidas de prevenção. Fontes de ignição, aterramento elétrico, armazenamento de recipientes e manutenção preventiva."
         },
         {
           id: "nr18-m2-dispositivos",
@@ -292,8 +325,8 @@ window.QUESTION_SCREEN_SESSION = {
     },
     {
       id: 3,
-      title: "Operação Segura, Riscos Ambientais/Aéreos e Vedações Absolutas (Procedimentos Inseguros)",
-      objective: "Instruir o operador sobre as regras de tráfego e posicionamento, o isolamento contra riscos externos (rede elétrica, vento, esmagamento) e o cumprimento rigoroso das vedações regulamentares da NR 18.",
+      title: "Equipamentos de Proteção Coletiva (EPC), Individual (EPI) e Proteção Contra Incêndios",
+      objective: "Detalhar a aplicação hierárquica dos Equipamentos de Proteção Coletiva (EPC) e Individual (EPI) conforme a NR-6 e capacitar o aluno no reconhecimento e operação dos sistemas manuais, fixos e automáticos de proteção contra incêndio.",
       titleUnlock: {
         title: "OPERAÇÃO NO LUGAR",
         body: "Você separou o deslocamento seguro, o risco aéreo, os 3 metros, o vento e a vedação.",
@@ -305,9 +338,9 @@ window.QUESTION_SCREEN_SESSION = {
           type: "cover",
           image: "assets/fotos/capa-modulo3.png",
           imageAlt: "Capa do módulo 3",
-          title: "Módulo 3 — Operação Segura, Riscos Ambientais/Aéreos e Vedações Absolutas (Procedimentos Inseguros)",
-          subtitle: "Deslocamento, riscos elétricos e de vento, e o que a NR 18 proíbe na operação.",
-          transcript: "Módulo 3. Operação segura, riscos ambientais e aéreos, e vedações absolutas, procedimentos inseguros. Deslocamento, riscos elétricos e de vento, e o que a NR 18 proíbe na operação."
+          title: "Módulo 3 — Equipamentos de Proteção Coletiva (EPC), Individual (EPI) e Proteção Contra Incêndios",
+          subtitle: "Hierarquia de EPC e EPI na NR-6 e sistemas de proteção contra incêndio.",
+          transcript: "Módulo 3. Equipamentos de proteção coletiva, EPC, individual, EPI, e proteção contra incêndios. Hierarquia de proteção na NR 6 e sistemas de combate a incêndio."
         },
         {
           id: "nr18-m3-piso",
@@ -467,8 +500,8 @@ window.QUESTION_SCREEN_SESSION = {
     },
     {
       id: 4,
-      title: "Proteção Contra Quedas (NR 06 / NR 18), SPIQ, Ancoragem e Boas Práticas",
-      objective: "Detalhar a obrigatoriedade do Sistema de Proteção Individual Contra Quedas (SPIQ), as especificações do cinturão tipo paraquedista, o ponto de ancoragem no cesto aéreo, os deveres do trabalhador conforme a NR 06 e a síntese das boas práticas operacionais.",
+      title: "Plano de Ação de Emergência (PAE), Operações de Risco e Resposta a Incidentes",
+      objective: "Capacitar os trabalhadores para agir com rapidez, segurança e eficácia em situações de crise, cobrindo a estrutura do PAE, corte de utilidades, abandono de área, contenção de vazamentos e comunicação com órgãos competentes.",
       titleUnlock: {
         title: "CINTO NO LUGAR",
         body: "Você reconhece o EPI, o dever da NR 06, o SPIQ e o ponto de ancoragem no cesto.",
@@ -480,9 +513,9 @@ window.QUESTION_SCREEN_SESSION = {
           type: "cover",
           image: "assets/fotos/capa-modulo4.png",
           imageAlt: "Capa do módulo 4",
-          title: "Módulo 4 — Proteção Contra Quedas (NR 06 / NR 18), SPIQ, Ancoragem e Boas Práticas",
-          subtitle: "SPIQ, cinturão paraquedista, ancoragem no cesto e deveres da NR 06.",
-          transcript: "Módulo 4. Proteção contra quedas, NR 06 e NR 18, SPIQ, ancoragem e boas práticas. SPIQ, cinturão paraquedista, ancoragem no cesto e deveres da NR 06."
+          title: "Módulo 4 — Plano de Ação de Emergência (PAE), Operações de Risco e Resposta a Incidentes",
+          subtitle: "Estrutura do PAE, corte de utilidades, abandono de área e contenção de vazamentos.",
+          transcript: "Módulo 4. Plano de ação de emergência, PAE, operações de risco e resposta a incidentes. Estrutura do PAE, corte de utilidades, abandono de área, contenção de vazamentos e comunicação com os órgãos competentes."
         },
         {
           id: "nr18-m4-epi",
@@ -601,7 +634,7 @@ window.QUESTION_SCREEN_SESSION = {
           kicker: "Conclusão",
           eyebrow: "Treinamento concluído",
           title: "Parabéns",
-          body: "Você concluiu o treinamento de NR 18 — PEMT/PTA.",
+          body: "Você concluiu o treinamento de NR 20 - Segurança e Saúde no Trabalho com Inflamáveis e Combustíveis.",
           quote: "Cinto ancorado no ponto do fabricante e cultura de prevencionismo.",
           chips: ["NR-18", "PEMT/PTA", "SPIQ"],
           transcript: "Conclusão. Treinamento concluído. Parabéns. Você concluiu o treinamento de NR 18, PEMT e PTA. Cinto ancorado no ponto do fabricante e cultura de prevencionismo. NR 18. PEMT, PTA. SPIQ."
