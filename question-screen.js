@@ -780,9 +780,48 @@
       </article>`;
   }
 
+  function fontesHTML(data) {
+    var items = Array.isArray(data.items) ? data.items : [];
+    var cards = items.map(function (it, i) {
+      var n = String(i + 1).padStart(2, '0');
+      var detail = it.text ? `<small>${esc(it.text)}</small>` : '';
+      return `<button type="button" class="qs-fontes-card" data-qs-fonte="${i}" data-pos="${i}">
+        <span class="qs-fontes-rail" aria-hidden="true"><b>${n}</b></span>
+        <span class="qs-fontes-copy">
+          <em>Fonte ${n}</em>
+          <strong>${esc(it.title || '')}</strong>
+          ${detail}
+          <i class="qs-fontes-tap" aria-hidden="true">Toque para a próxima</i>
+        </span>
+      </button>`;
+    }).join('');
+    var tags = (Array.isArray(data.tags) ? data.tags : []).map(function (tag) {
+      return `<span>${esc(tag)}</span>`;
+    }).join('');
+    return `
+      <article class="qs-screen is-content is-fontes" data-qs-root data-type="content">
+        <div class="qs-fontes">
+          <header class="qs-fontes-head">
+            ${data.kicker ? `<span class="qs-fontes-kicker">${esc(data.kicker)}</span>` : ''}
+            <h2>${esc(data.title || '')}</h2>
+            ${data.body ? `<p>${esc(data.body)}</p>` : ''}
+          </header>
+          <div class="qs-fontes-deck">${cards}</div>
+          <p class="qs-fontes-hint" data-qs-fonte-hint><span data-qs-fonte-count>1 de ${items.length}</span></p>
+          ${data.note || tags ? `<footer class="qs-fontes-foot">
+            ${data.note ? `<p>${esc(data.note)}</p>` : ''}
+            ${tags ? `<div class="qs-fontes-tags">${tags}</div>` : ''}
+          </footer>` : ''}
+        </div>
+      </article>`;
+  }
+
   function contentHTML(data) {
     if (data.layout === 'defs') {
       return defsHTML(data);
+    }
+    if (data.layout === 'fontes') {
+      return fontesHTML(data);
     }
     if (data.layout === 'bans') {
       return bansHTML(data);
@@ -1513,7 +1552,7 @@
     this.el.addEventListener('click', this._onClick);
 
     var lockedVideo = type === 'video' && !!(this.data.embed || this.data.panda || this.data.video);
-    var stepSequence = type === 'content' && !!(this.data && Array.isArray(this.data.items) && this.data.items.length && (this.data.steps || this.data.layout === 'devices'));
+    var stepSequence = type === 'content' && !!(this.data && Array.isArray(this.data.items) && this.data.items.length && (this.data.steps || this.data.layout === 'devices' || this.data.layout === 'fontes'));
     var gated = type === 'question' || type === 'order' || type === 'match' || type === 'sort' || type === 'console' || type === 'reflect' || type === 'compare' || lockedVideo || stepSequence;
     if (!gated) this.state.answered = true;
 
@@ -1528,6 +1567,7 @@
     if (type === 'console') this._bindConsole();
     if (type === 'content' && this.data && this.data.steps && Array.isArray(this.data.items) && this.data.items.length) this._bindSteps();
     if (type === 'content' && this.data && this.data.layout === 'devices') this._bindDevices();
+    if (type === 'content' && this.data && this.data.layout === 'fontes') this._bindFontes();
     if (type === 'content' && this.data && this.data.links) this._bindHazard();
     if (type === 'content' && this.data && this.data.layout === 'qualify') this._bindQualify();
     if (type === 'content' && this.data && this.data.spots) this._bindExplore();
@@ -2190,6 +2230,79 @@
 
     if (lift) lift.addEventListener('click', finish);
     paint();
+  };
+
+  QuestionScreen.prototype._bindFontes = function () {
+    var self = this;
+    var cards = Array.prototype.slice.call(this.el.querySelectorAll('[data-qs-fonte]'));
+    var count = this.el.querySelector('[data-qs-fonte-count]');
+    var hint = this.el.querySelector('[data-qs-fonte-hint]');
+    var total = cards.length;
+    if (total < 1) return;
+    var order = cards.map(function (_, i) { return i; });
+    var seen = { 0: true };
+    var moving = false;
+    var OUT_MS = 320;
+
+    function seenCount() {
+      return Object.keys(seen).length;
+    }
+
+    function paint(skip) {
+      order.forEach(function (idx, pos) {
+        var card = cards[idx];
+        if (card === skip) return;
+        card.setAttribute('data-pos', String(pos));
+        card.style.zIndex = String(total - pos);
+      });
+      var front = order[0];
+      if (seenCount() >= total) {
+        if (hint && !hint.classList.contains('is-done')) {
+          hint.textContent = 'As sete fontes foram conferidas.';
+          hint.classList.add('is-done');
+        }
+        if (!self.state.answered) {
+          self._complete({ kind: 'fontes' });
+          beep('ok');
+        }
+      } else if (count) {
+        count.textContent = (front + 1) + ' de ' + total;
+      }
+    }
+
+    function advance() {
+      if (moving || total < 2) return;
+      moving = true;
+      var leaving = cards[order[0]];
+      order.push(order.shift());
+      seen[order[0]] = true;
+      leaving.style.zIndex = String(total + 1);
+      leaving.classList.add('is-out');
+      paint(leaving);
+      setTimeout(function () {
+        leaving.classList.add('is-silent');
+        leaving.classList.remove('is-out');
+        paint();
+        requestAnimationFrame(function () {
+          void leaving.offsetWidth;
+          leaving.classList.remove('is-silent');
+          moving = false;
+        });
+      }, OUT_MS);
+    }
+
+    if (total < 2) {
+      self._complete({ kind: 'fontes' });
+      return;
+    }
+    paint();
+    cards.forEach(function (card) {
+      card.addEventListener('click', function () {
+        if (card.getAttribute('data-pos') !== '0') return;
+        advance();
+        beep('click');
+      });
+    });
   };
 
   QuestionScreen.prototype._bindDevices = function () {

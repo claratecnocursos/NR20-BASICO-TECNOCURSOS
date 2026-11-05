@@ -6,7 +6,7 @@
   <meta name="referrer" content="no-referrer">
   <title>NR 20 - Segurança e Saúde no Trabalho com Inflamáveis e Combustíveis</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="question-screen.css?v=nr20-sombra-neon">
+  <link rel="stylesheet" href="question-screen.css?v=nr20-m2-pares">
   <style>
     html, body { margin: 0; height: 100%; overflow: hidden; }
   </style>
@@ -155,8 +155,8 @@
 
   <audio id="bg-music" loop preload="metadata" aria-hidden="true"></audio>
 
-  <script src="question-screen-data.js?v=nr20-m1-game5"></script>
-  <script src="question-screen.js?v=nr20-defs"></script>
+  <script src="question-screen-data.js?v=nr20-m2-pares"></script>
+  <script src="question-screen.js?v=nr20-fontes-card2"></script>
   <script src="narration-text.js?v=nr18-m2-console2"></script>
   <script src="narration.js?v=nr18-home-tx"></script>
   <script>
@@ -236,7 +236,7 @@
   // Um array "steps" de conteúdo estático não entra aqui.
   function isStepsGate(s) {
     if (!s || s.type !== 'content' || !Array.isArray(s.items) || !s.items.length) return false;
-    return !!(s.steps || s.layout === 'devices');
+    return !!(s.steps || s.layout === 'devices' || s.layout === 'fontes');
   }
   // vídeo com player: só libera o avanço faltando ~8s para o fim
   function isVideoGate(s) {

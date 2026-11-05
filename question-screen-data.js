@@ -160,8 +160,8 @@ window.QUESTION_SCREEN_SESSION = {
       title: "Controle de Fontes de Ignição, Armazenamento Seguro e Medidas de Prevenção",
       objective: "Mapear todas as potenciais fontes de ignição nos ambientes de trabalho e estabelecer as diretrizes técnicas para controle de engenharia, aterramento elétrico, armazenamento seguro de recipientes e manutenção preventiva.",
       titleUnlock: {
-        title: "TURNO NO LUGAR",
-        body: "Você separou o dispositivo obrigatório, o chassi travado, o painel e o checklist diário.",
+        title: "FRASES NO LUGAR",
+        body: "Você associou aterramento, trabalho a quente, palete, empilhamento e tambor vazio.",
         icon: "✓"
       },
       screens: [
@@ -175,150 +175,71 @@ window.QUESTION_SCREEN_SESSION = {
           transcript: "Módulo 2. Controle de fontes de ignição, armazenamento seguro e medidas de prevenção. Fontes de ignição, aterramento elétrico, armazenamento de recipientes e manutenção preventiva."
         },
         {
-          id: "nr18-m2-dispositivos",
+          id: "nr20-m2-ignicao",
           type: "video",
           kicker: "Vídeo",
-          title: "Dispositivos de Segurança Obrigatórios da PEMT",
-          playerId: "panda-0b811d0e-2623-45b1-a5f9-94703010f9a6",
-          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=0b811d0e-2623-45b1-a5f9-94703010f9a6"
+          title: "Mapeamento e Controle das Fontes de Ignição",
+          playerId: "panda-83d5c94f-2d24-470f-865f-65b2f524522e",
+          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=83d5c94f-2d24-470f-865f-65b2f524522e"
         },
         {
-          id: "nr18-m2-dispositivos-lista",
+          id: "nr20-m2-fontes",
           type: "content",
-          layout: "devices",
-          kicker: "Segurança",
-          eyebrow: "Segurança",
-          title: "Dispositivos da PEMT",
-          accent: "PEMT",
-          body: "A PEMT deve ser dotada de:",
-          transcript: "Segurança. Dispositivos da PEMT. A PEMT deve ser dotada de nivelamento. Dispositivos de segurança que garantem seu perfeito nivelamento no ponto de trabalho, conforme especificação do fabricante. Alça de apoio interno. Ponto de apoio fixado no interior do cesto ou plataforma para o operador manter equilíbrio, estabilidade e postura segura durante o trabalho em altura. Proteção contra quedas. Sistema de proteção contra quedas que atenda às especificações do fabricante ou, na falta destas, ao disposto na NR-12. Parada de emergência. Botão de parada de emergência. Descida de emergência. Dispositivo de emergência que possibilite baixar o trabalhador e a plataforma até o solo em caso de pane elétrica, hidráulica ou mecânica. Sinalização sonora. Sistema sonoro automático de sinalização acionado durante a subida e a descida. Proteção elétrica. Proteção contra choque elétrico. Horímetro. Instrumento que mede o tempo de funcionamento de um motor ou equipamento.",
+          layout: "fontes",
+          kicker: "Controle",
+          title: "Sete fontes de ignição",
+          body: "Devemos mapear e controlar rigorosamente estas sete fontes no ambiente de trabalho.",
           items: [
-            {
-              icon: "⚖️",
-              title: "Nivelamento",
-              text: "Dispositivos de segurança que garantem seu perfeito nivelamento no ponto de trabalho, conforme especificação do fabricante."
-            },
-            {
-              icon: "🤝",
-              title: "Alça de apoio interno",
-              text: "Ponto de apoio fixado no interior do cesto ou plataforma para o operador manter equilíbrio, estabilidade e postura segura durante o trabalho em altura."
-            },
-            {
-              icon: "🔗",
-              title: "Proteção contra quedas",
-              text: "Sistema de proteção contra quedas que atenda às especificações do fabricante ou, na falta destas, ao disposto na NR-12."
-            },
-            {
-              icon: "🛑",
-              title: "Parada de emergência",
-              text: "Botão de parada de emergência."
-            },
-            {
-              icon: "⬇️",
-              title: "Descida de emergência",
-              text: "Dispositivo de emergência que possibilite baixar o trabalhador e a plataforma até o solo em caso de pane elétrica, hidráulica ou mecânica."
-            },
-            {
-              icon: "🔊",
-              title: "Sinalização sonora",
-              text: "Sistema sonoro automático de sinalização acionado durante a subida e a descida."
-            },
-            {
-              icon: "⚡",
-              title: "Proteção elétrica",
-              text: "Proteção contra choque elétrico."
-            },
-            {
-              icon: "⏱️",
-              title: "Horímetro",
-              text: "Instrumento que mede o tempo de funcionamento de um motor ou equipamento."
-            }
-          ]
+            { title: "Chamas abertas" },
+            { title: "Ato de fumar" },
+            { title: "Serviços a quente", text: "Solda e corte" },
+            { title: "Superfícies aquecidas" },
+            { title: "Eletricidade estática" },
+            { title: "Faíscas mecânicas", text: "Atrito de ferramentas" },
+            { title: "Arcos elétricos" }
+          ],
+          note: "Para evitar acúmulos perigosos, as instalações devem contar com sistemas de ventilação adequada e isolamento rigoroso de processos e operações perigosas, seja em ambientes confinados, externos ou compartimentados.",
+          tags: ["Ventilação adequada", "Isolamento rigoroso"],
+          transcript: "Sete fontes de ignição. Devemos mapear e controlar rigorosamente sete fontes principais no ambiente de trabalho: chamas abertas, o ato de fumar, serviços a quente como solda e corte, superfícies aquecidas, eletricidade estática, faíscas mecânicas geradas pelo atrito de ferramentas e arcos elétricos. Para evitar acúmulos perigosos, as instalações devem contar com sistemas de ventilação adequada e isolamento rigoroso de processos e operações perigosas, seja em ambientes confinados, externos ou compartimentados."
         },
         {
-          id: "nr18-m2-chassi",
+          id: "nr20-m2-aterramento",
           type: "video",
           kicker: "Vídeo",
-          title: "Estabilidade do Chassi, Normas e Manutenção Capacitada",
-          playerId: "panda-41e0a38a-74b2-4150-8a5d-e53b48266045",
-          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=41e0a38a-74b2-4150-8a5d-e53b48266045"
+          title: "Aterramento Elétrico e Prevenção de Eletricidade Estática",
+          playerId: "panda-7d39b9ae-d621-4186-9bfa-6201f9567877",
+          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=7d39b9ae-d621-4186-9bfa-6201f9567877"
         },
         {
-          id: "nr18-m2-painel",
+          id: "nr20-m2-armazenamento",
           type: "video",
           kicker: "Vídeo",
-          title: "Sensor de Sobrecarga e Painel de Comando do Cesto",
-          playerId: "panda-87364781-8400-4fbb-8a12-57159d664037",
-          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=87364781-8400-4fbb-8a12-57159d664037"
+          title: "Regras Estritas de Armazenamento e Estocagem de Recipientes",
+          playerId: "panda-fa72f404-f314-43f1-b9e0-db4546cd5c58",
+          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=fa72f404-f314-43f1-b9e0-db4546cd5c58"
         },
         {
-          id: "nr18-m2-inspecao",
+          id: "nr20-m2-manutencao",
           type: "video",
           kicker: "Vídeo",
-          title: "Inspeção Diária do Local de Trabalho",
-          playerId: "panda-7c844aa2-da3e-4ad2-b3c9-f1f1bb0043fa",
-          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=7c844aa2-da3e-4ad2-b3c9-f1f1bb0043fa"
+          title: "Organização, Limpeza e Manutenção Preventiva",
+          playerId: "panda-e0ea5407-c282-4a0a-814f-1b6732e33802",
+          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=e0ea5407-c282-4a0a-814f-1b6732e33802"
         },
         {
-          id: "nr18-m2-checklist",
-          type: "video",
-          kicker: "Vídeo",
-          title: "Checklist Pré-operacional Diário",
-          playerId: "panda-2373531c-20d3-453a-bb28-f13b62f04832",
-          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=2373531c-20d3-453a-bb28-f13b62f04832"
-        },
-        {
-          id: "nr18-m2-console",
-          type: "console",
-          title: "Libera a subida",
-          body: "Uma situação por vez. Toque na ação certa.",
-          transcript: "Libera a subida. Uma situação por vez. Toque na ação certa.",
-          items: [
-            {
-              ask: "O cesto parou no alto por uma pane. O que faz ele descer até o solo?",
-              hint: "A parada só corta o movimento. A descida de emergência rebaixa o cesto na pane elétrica, hidráulica ou mecânica.",
-              answer: "descida",
-              options: [
-                { id: "parada", text: "Parada de emergência" },
-                { id: "descida", text: "Descida de emergência" }
-              ]
-            },
-            {
-              ask: "A plataforma tem chassi móvel. Como ela fica, da montagem até a desmontagem?",
-              hint: "O chassi móvel fica nivelado, patolado ou travado o tempo todo.",
-              answer: "patola",
-              options: [
-                { id: "solto", text: "Solto" },
-                { id: "patola", text: "Patolado e travado" }
-              ]
-            },
-            {
-              ask: "A tesoura passou do limite de peso. O que você faz?",
-              hint: "O sensor bloqueia a subida acima do limite. Tire o excesso antes de erguer.",
-              answer: "tirar",
-              options: [
-                { id: "subir", text: "Subo mesmo assim" },
-                { id: "tirar", text: "Tiro o excesso de peso" }
-              ]
-            },
-            {
-              ask: "O caminho tem um buraco. Onde a PEMT pode ficar?",
-              hint: "O operador confere o local antes: solo firme, sem buraco, vala, declive ou fiação.",
-              answer: "solo",
-              options: [
-                { id: "buraco", text: "Em cima do buraco" },
-                { id: "solo", text: "Em solo firme e nivelado" }
-              ]
-            },
-            {
-              ask: "O checklist achou vazamento de óleo. O que você faz?",
-              hint: "Com vazamento, a PEMT não opera. Quem corrige é o técnico capacitado naquela marca e modelo.",
-              answer: "tecnico",
-              options: [
-                { id: "seguir", text: "Sigo o turno" },
-                { id: "tecnico", text: "Paro e chamo o técnico" }
-              ]
-            }
+          id: "nr20-m2-pares",
+          type: "match",
+          title: "Associe os pares",
+          leftTitle: "Medida",
+          rightTitle: "O que vale",
+          minCorrect: 5,
+          transcript: "Associe os pares. Toque em uma medida e depois no que vale para ela. São cinco pares: aterramento, trabalho a quente, palete, empilhamento e tambor vazio.",
+          pairs: [
+            { ex: "Aterramento elétrico", body: "Dissipa a estática" },
+            { ex: "Trabalho a quente", body: "Solda e corte" },
+            { ex: "Palete", body: "Fora do piso" },
+            { ex: "Empilhamento", body: "Só um recipiente" },
+            { ex: "Tambor vazio", body: "Sai do local" }
           ]
         }
       ]
