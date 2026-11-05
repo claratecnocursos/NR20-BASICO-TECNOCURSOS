@@ -85,15 +85,15 @@
 .qs-home-veil {
   position: absolute;
   inset: 0;
-  background-image:
+  pointer-events: none;
+  background:
     linear-gradient(
       90deg,
-      rgba(36, 110, 16, 0.55) 0%,
-      rgba(48, 130, 18, 0.32) 22%,
-      rgba(56, 140, 20, 0.12) 40%,
-      transparent 58%
-    ),
-    radial-gradient(ellipse at 18% 55%, rgba(40, 120, 16, 0.22) 0%, transparent 48%);
+      rgba(137, 206, 42, 0.72) 0%,
+      rgba(137, 206, 42, 0.42) 18%,
+      rgba(137, 206, 42, 0.16) 38%,
+      transparent 56%
+    );
 }
 .qs-home-logo {
   position: absolute;
