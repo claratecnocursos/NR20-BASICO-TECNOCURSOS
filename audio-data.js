@@ -22,8 +22,12 @@ function ttsSpeak(text) {
   t = t.replace(/[\u2014\u2013]/g, ', ');
   t = t.replace(/\bNR[-\s]?12\b/gi, 'N R doze');
   t = t.replace(/\bNR[-\s]?33\b/gi, 'N R trinta e três');
+  t = t.replace(/\bNR[-\s]?20\b/gi, 'N R vinte');
   t = t.replace(/\bNR[-\s]?18\b/gi, 'N R dezoito');
+  t = t.replace(/\bFISPQ\b/g, 'F I S P Q');
   t = t.replace(/\bNR[-\s]?06\b/gi, 'N R zero seis');
+  t = t.replace(/\bNR[-\s]?6\b/gi, 'N R seis');
+  t = t.replace(/\bCA\b/g, 'C A');
   t = t.replace(/\bPEMT\b/g, 'P E M T');
   t = t.replace(/\bPTA\b/g, 'P T A');
   t = t.replace(/\bSPIQ\b/g, 'S P I Q');
@@ -73,6 +77,7 @@ function ttsSpeak(text) {
   t = t.replace(/\b199\b/g, 'cento e noventa e nove');
   t = t.replace(/\bLOTO\b/g, 'L O T O');
   t = t.replace(/\bGLP\b/g, 'G L P');
+  t = t.replace(/\bPAE\b/g, 'P A E');
   t = t.replace(/\bINMETRO\b/g, 'I N M E T R O');
   t = t.replace(/100%/g, 'cem por cento');
   t = t.replace(/\b50\s*[×xX]\s*200\s*mm\b/gi, 'cinquenta por duzentos milímetros');

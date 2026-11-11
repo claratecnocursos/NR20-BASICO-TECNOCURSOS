@@ -316,6 +316,12 @@
 
   function contentBlocks(data) {
     var html = '';
+    if (data.lead && typeof data.lead === 'object') {
+      html += `<aside class="qs-lead">
+        ${data.lead.label ? `<strong>${esc(data.lead.label)}</strong>` : ''}
+        <span>${esc(data.lead.text || data.lead.body || '')}</span>
+      </aside>`;
+    }
     if (data.body) html += `<p class="qs-body">${esc(data.body)}</p>`;
     if (Array.isArray(data.images) && data.images.length) {
       html += `<div class="qs-gallery">${data.images.map(function (img) {
@@ -399,6 +405,7 @@
         </article>`;
       }).join('')}</div>`;
     }
+    if (data.listTitle) html += `<h3 class="qs-list-title">${esc(data.listTitle)}</h3>`;
     if (Array.isArray(data.bullets) && data.bullets.length) {
       html += `<ul class="qs-bullets">${data.bullets.map(function (b) {
         return `<li>${esc(b)}</li>`;
@@ -895,7 +902,7 @@
     var dense = (data.items && data.items.length > 6) || (data.cards && data.cards.length > 3) || (data.images && data.images.length > 1);
     var hasGallery = !!(data.images && data.images.length);
     var fit = !!data.fit;
-    var look = (data.layout === 'spots' || data.layout === 'duo') ? (' is-' + data.layout) : '';
+    var look = (data.layout === 'spots' || data.layout === 'duo' || data.layout === 'list') ? (' is-' + data.layout) : '';
     return `
       <article class="qs-screen is-content is-text${dense ? ' is-dense' : ''}${hasGallery ? ' is-gallery' : ''}${fit ? ' is-fit' : ''}${look}" data-qs-root data-type="content">
         <div class="qs-panel qs-panel-text">
@@ -2205,7 +2212,7 @@
             card.classList.add('is-wrong');
           }
           if (fb) {
-            fb.textContent = it.hint || 'Essa ação não libera a subida.';
+            fb.textContent = it.hint || 'Essa não é a ação certa.';
             fb.className = 'qs-console-fb is-nok';
           }
           return;

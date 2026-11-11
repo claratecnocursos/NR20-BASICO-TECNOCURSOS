@@ -150,6 +150,19 @@
   padding: 5px 14px;
   box-shadow: 0 0 22px rgba(137, 206, 42, 0.22);
 }
+.qs-home-level {
+  font-family: var(--qs-font-h);
+  font-size: clamp(13px, 1.15vw, 15px);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #102408;
+  background: #89CE2A;
+  border-radius: 999px;
+  padding: 6px 14px;
+  margin-bottom: 12px;
+  box-shadow: 0 0 22px rgba(137, 206, 42, 0.35);
+}
 .qs-home-card h1 {
   font-family: var(--qs-font-h);
   font-weight: 900;
@@ -3847,6 +3860,129 @@ html.qs-dark .qs-devices-dot { background: #3a3a44; }
   font-weight: 600;
   font-size: 0.98rem;
   line-height: 1.5;
+}
+.qs-screen.is-list .qs-panel-text {
+  overflow: hidden;
+  justify-content: flex-start;
+  gap: 8px;
+  padding: 16px 18px 14px;
+}
+.qs-screen.is-list .qs-title {
+  margin: 0;
+  font-size: clamp(1.08rem, 2vw, 1.38rem);
+}
+.qs-screen.is-list .qs-lead {
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+  padding: 8px 10px 8px 8px;
+  background: linear-gradient(90deg, #E7F8C4 0%, #F7FCEC 70%);
+  border: 1px solid rgba(137, 206, 42, 0.55);
+  border-left: 0;
+  border-radius: 14px;
+}
+.qs-screen.is-list .qs-lead strong {
+  flex: 0 0 auto;
+  background: #89CE2A;
+  color: #102408;
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.qs-screen.is-list .qs-lead span {
+  font-size: 0.9rem;
+  line-height: 1.25;
+}
+.qs-screen.is-list .qs-list-title {
+  margin: 2px 0 0;
+  font-size: 0.74rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.qs-screen.is-list .qs-bullets {
+  counter-reset: vazamento;
+  flex: 1 1 auto;
+  min-height: 0;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(0, 1fr);
+  align-content: stretch;
+  gap: 6px;
+}
+.qs-screen.is-list .qs-bullets li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 0;
+  margin: 0;
+  padding: 6px 10px;
+  border-left: 0;
+  border-radius: 12px;
+  background: #F4FBE8;
+  font-size: 0.8rem;
+  font-weight: 650;
+  line-height: 1.22;
+  counter-increment: vazamento;
+}
+.qs-screen.is-list .qs-bullets li::before {
+  content: counter(vazamento, decimal-leading-zero);
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 8px;
+  background: #89CE2A;
+  color: #102408;
+  font-family: var(--qs-font-h);
+  font-size: 0.68rem;
+  font-weight: 800;
+}
+.qs-screen.is-list .qs-bullets li:nth-child(7) {
+  grid-column: 1 / -1;
+}
+@media (max-width: 760px) {
+  .qs-screen.is-list .qs-lead {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .qs-screen.is-list .qs-bullets {
+    grid-template-columns: 1fr;
+  }
+  .qs-screen.is-list .qs-panel-text {
+    overflow: auto;
+  }
+}
+.qs-lead {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin: 0 0 14px;
+  padding: 12px 14px;
+  background: #F7FCEC;
+  border-radius: 12px;
+  border-left: 4px solid #89CE2A;
+}
+.qs-lead strong {
+  font-family: var(--qs-font-h);
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: #1E5214;
+}
+.qs-lead span {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #0E3010;
+  line-height: 1.4;
+}
+.qs-list-title {
+  font-family: var(--qs-font-h);
+  font-weight: 800;
+  font-size: 1.02rem;
+  color: #142E0C;
+  margin: 2px 0 8px;
 }
 .qs-gallery {
   display: flex;
@@ -7799,6 +7935,29 @@ html.qs-dark .qs-seq-badge {
 html.qs-dark .qs-quote {
   background: rgba(137, 206, 42, 0.12);
   color: var(--qs-ink);
+}
+html.qs-dark .qs-lead {
+  background: #102810;
+  border-left-color: #89CE2A;
+}
+html.qs-dark .qs-lead strong,
+html.qs-dark .qs-list-title {
+  color: #C6F27A;
+}
+html.qs-dark .qs-lead span {
+  color: var(--qs-muted);
+}
+html.qs-dark .qs-screen.is-list .qs-lead {
+  background: #102810;
+  border-color: rgba(137, 206, 42, 0.4);
+}
+html.qs-dark .qs-screen.is-list .qs-lead strong,
+html.qs-dark .qs-screen.is-list .qs-bullets li::before {
+  background: #89CE2A;
+  color: #102408;
+}
+html.qs-dark .qs-screen.is-list .qs-bullets li {
+  background: #0E240A;
 }
 html.qs-dark .qs-note {
   background: #102810;

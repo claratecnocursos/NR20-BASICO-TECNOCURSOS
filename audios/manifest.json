@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-30T18:24:46.057Z",
+  "generatedAt": "2026-11-11T11:40:10.501Z",
   "source": "question-screen-data.js",
   "audioDir": "audios",
   "slides": [
@@ -9,7 +9,7 @@
       "id": "home-nr11",
       "title": "Abertura",
       "file": "audios/home-nr11.mp3",
-      "text": "Segurança do Trabalho. N R dezoito. Treinamento de P T A, Plataforma de Trabalho Aéreo. Fundamentos e tipologia, checklist diário, operação segura, proteção contra quedas. quatro módulos completos. Treinamento cem por cento online. Toque em iniciar o treinamento.",
+      "text": "Segurança do Trabalho. Básico. N R vinte. Segurança e saúde no trabalho com inflamáveis e combustíveis. Fundamentos e tipologia, checklist diário, operação segura, proteção contra quedas. quatro módulos completos. Toque em iniciar o treinamento.",
       "audioReady": true
     },
     {
@@ -17,7 +17,7 @@
       "id": "menu-nr11-done",
       "title": "Menu, concluído",
       "file": "audios/menu-nr11-done.mp3",
-      "text": "N R dezoito, P E M T, P T A. Um módulo por vez. Ao concluir, o próximo é liberado. Treinamento concluído. Você pode revisar o módulo um.",
+      "text": "N R vinte básico. Um módulo por vez. Ao concluir, o próximo é liberado. Treinamento concluído. Você pode revisar o módulo um.",
       "audioReady": true
     },
     {
@@ -25,7 +25,7 @@
       "id": "menu-nr11-1-start",
       "title": "Menu, módulo 1, start",
       "file": "audios/menu-nr11-1-start.mp3",
-      "text": "N R dezoito, P E M T, P T A. Um módulo por vez. Ao concluir, o próximo é liberado. Você está aqui. Módulo um de quatro. Fundamentos Legais, Normativos e Tipologia das P E M T/P T A. Capacitar o aluno sobre a sustentação legal da N R dezoito (e seu histórico regulamentar), a definição técnica formal de P E M T/P T A, o escopo de aplicação, as responsabilidades de fabricantes, locadores e fornecedores, e a classificação detalhada dos modelos de plataformas. Iniciar módulo.",
+      "text": "N R vinte básico. Um módulo por vez. Ao concluir, o próximo é liberado. Você está aqui. Módulo um de quatro. Fundamentos da N R vinte, Classificação e Propriedades Físico-Químicas dos Inflamáveis. Apresentar a base regulamentar da N R vinte, o campo de aplicação, as exceções legais, a classificação oficial das instalações industriais e a análise das propriedades físico-químicas, perigos e riscos dos produtos inflamáveis e combustíveis. Iniciar módulo.",
       "audioReady": true
     },
     {
@@ -33,7 +33,7 @@
       "id": "menu-nr11-1-review",
       "title": "Menu, módulo 1, review",
       "file": "audios/menu-nr11-1-review.mp3",
-      "text": "N R dezoito, P E M T, P T A. Um módulo por vez. Ao concluir, o próximo é liberado. Você está aqui. Módulo um de quatro. Fundamentos Legais, Normativos e Tipologia das P E M T/P T A. Capacitar o aluno sobre a sustentação legal da N R dezoito (e seu histórico regulamentar), a definição técnica formal de P E M T/P T A, o escopo de aplicação, as responsabilidades de fabricantes, locadores e fornecedores, e a classificação detalhada dos modelos de plataformas. Revisar módulo.",
+      "text": "N R vinte básico. Um módulo por vez. Ao concluir, o próximo é liberado. Você está aqui. Módulo um de quatro. Fundamentos da N R vinte, Classificação e Propriedades Físico-Químicas dos Inflamáveis. Apresentar a base regulamentar da N R vinte, o campo de aplicação, as exceções legais, a classificação oficial das instalações industriais e a análise das propriedades físico-químicas, perigos e riscos dos produtos inflamáveis e combustíveis. Revisar módulo.",
       "audioReady": true
     },
     {
@@ -41,7 +41,7 @@
       "id": "menu-nr11-1-done-first",
       "title": "Menu, módulo 1, done-first",
       "file": "audios/menu-nr11-1-done-first.mp3",
-      "text": "N R dezoito, P E M T, P T A. Você finalizou os módulos. Toque para revisar o Módulo um. Treinamento concluído. Módulo um de quatro. Fundamentos Legais, Normativos e Tipologia das P E M T/P T A. Capacitar o aluno sobre a sustentação legal da N R dezoito (e seu histórico regulamentar), a definição técnica formal de P E M T/P T A, o escopo de aplicação, as responsabilidades de fabricantes, locadores e fornecedores, e a classificação detalhada dos modelos de plataformas. Revisar módulo.",
+      "text": "N R vinte básico. Você finalizou os módulos. Toque para revisar o Módulo um. Treinamento concluído. Módulo um de quatro. Fundamentos da N R vinte, Classificação e Propriedades Físico-Químicas dos Inflamáveis. Apresentar a base regulamentar da N R vinte, o campo de aplicação, as exceções legais, a classificação oficial das instalações industriais e a análise das propriedades físico-químicas, perigos e riscos dos produtos inflamáveis e combustíveis. Revisar módulo.",
       "audioReady": true
     },
     {
@@ -49,7 +49,7 @@
       "id": "menu-nr11-2-start",
       "title": "Menu, módulo 2, start",
       "file": "audios/menu-nr11-2-start.mp3",
-      "text": "N R dezoito, P E M T, P T A. Um módulo por vez. Ao concluir, o próximo é liberado. Você está aqui. Módulo dois de quatro. Requisitos Técnicos, Dispositivos de Segurança, Painel de Controle e Checklist Diário. Apresentar todos os componentes de segurança exigidos por norma, as especificações técnicas de fabricação, o manuseio do painel de comando do cesto e a rotina sistemática do checklist pré-operacional diário. Iniciar módulo.",
+      "text": "N R vinte básico. Um módulo por vez. Ao concluir, o próximo é liberado. Você está aqui. Módulo dois de quatro. Controle de Fontes de Ignição, Armazenamento Seguro e Medidas de Prevenção. Mapear todas as potenciais fontes de ignição nos ambientes de trabalho e estabelecer as diretrizes técnicas para controle de engenharia, aterramento elétrico, armazenamento seguro de recipientes e manutenção preventiva. Iniciar módulo.",
       "audioReady": true
     },
     {
@@ -57,7 +57,7 @@
       "id": "menu-nr11-2-review",
       "title": "Menu, módulo 2, review",
       "file": "audios/menu-nr11-2-review.mp3",
-      "text": "N R dezoito, P E M T, P T A. Um módulo por vez. Ao concluir, o próximo é liberado. Você está aqui. Módulo dois de quatro. Requisitos Técnicos, Dispositivos de Segurança, Painel de Controle e Checklist Diário. Apresentar todos os componentes de segurança exigidos por norma, as especificações técnicas de fabricação, o manuseio do painel de comando do cesto e a rotina sistemática do checklist pré-operacional diário. Revisar módulo.",
+      "text": "N R vinte básico. Um módulo por vez. Ao concluir, o próximo é liberado. Você está aqui. Módulo dois de quatro. Controle de Fontes de Ignição, Armazenamento Seguro e Medidas de Prevenção. Mapear todas as potenciais fontes de ignição nos ambientes de trabalho e estabelecer as diretrizes técnicas para controle de engenharia, aterramento elétrico, armazenamento seguro de recipientes e manutenção preventiva. Revisar módulo.",
       "audioReady": true
     },
     {
@@ -65,7 +65,7 @@
       "id": "menu-nr11-2-done",
       "title": "Menu, módulo 2, done",
       "file": "audios/menu-nr11-2-done.mp3",
-      "text": "N R dezoito, P E M T, P T A. Você finalizou os módulos. Toque para revisar o Módulo dois. Você está aqui. Módulo dois de quatro. Requisitos Técnicos, Dispositivos de Segurança, Painel de Controle e Checklist Diário. Apresentar todos os componentes de segurança exigidos por norma, as especificações técnicas de fabricação, o manuseio do painel de comando do cesto e a rotina sistemática do checklist pré-operacional diário. Revisar módulo.",
+      "text": "N R vinte básico. Você finalizou os módulos. Toque para revisar o Módulo dois. Você está aqui. Módulo dois de quatro. Controle de Fontes de Ignição, Armazenamento Seguro e Medidas de Prevenção. Mapear todas as potenciais fontes de ignição nos ambientes de trabalho e estabelecer as diretrizes técnicas para controle de engenharia, aterramento elétrico, armazenamento seguro de recipientes e manutenção preventiva. Revisar módulo.",
       "audioReady": true
     },
     {
@@ -73,7 +73,7 @@
       "id": "menu-nr11-3-start",
       "title": "Menu, módulo 3, start",
       "file": "audios/menu-nr11-3-start.mp3",
-      "text": "N R dezoito, P E M T, P T A. Um módulo por vez. Ao concluir, o próximo é liberado. Você está aqui. Módulo três de quatro. Operação Segura, Riscos Ambientais/Aéreos e Vedações Absolutas (Procedimentos Inseguros). Instruir o operador sobre as regras de tráfego e posicionamento, o isolamento contra riscos externos (rede elétrica, vento, esmagamento) e o cumprimento rigoroso das vedações regulamentares da N R dezoito. Iniciar módulo.",
+      "text": "N R vinte básico. Um módulo por vez. Ao concluir, o próximo é liberado. Você está aqui. Módulo três de quatro. Equipamentos de Proteção Coletiva (E P C), Individual (E P I) e Proteção Contra Incêndios. Detalhar a aplicação hierárquica dos Equipamentos de Proteção Coletiva (E P C) e Individual (E P I) conforme a N R seis e capacitar o aluno no reconhecimento e operação dos sistemas manuais, fixos e automáticos de proteção contra incêndio. Iniciar módulo.",
       "audioReady": true
     },
     {
@@ -81,7 +81,7 @@
       "id": "menu-nr11-3-review",
       "title": "Menu, módulo 3, review",
       "file": "audios/menu-nr11-3-review.mp3",
-      "text": "N R dezoito, P E M T, P T A. Um módulo por vez. Ao concluir, o próximo é liberado. Você está aqui. Módulo três de quatro. Operação Segura, Riscos Ambientais/Aéreos e Vedações Absolutas (Procedimentos Inseguros). Instruir o operador sobre as regras de tráfego e posicionamento, o isolamento contra riscos externos (rede elétrica, vento, esmagamento) e o cumprimento rigoroso das vedações regulamentares da N R dezoito. Revisar módulo.",
+      "text": "N R vinte básico. Um módulo por vez. Ao concluir, o próximo é liberado. Você está aqui. Módulo três de quatro. Equipamentos de Proteção Coletiva (E P C), Individual (E P I) e Proteção Contra Incêndios. Detalhar a aplicação hierárquica dos Equipamentos de Proteção Coletiva (E P C) e Individual (E P I) conforme a N R seis e capacitar o aluno no reconhecimento e operação dos sistemas manuais, fixos e automáticos de proteção contra incêndio. Revisar módulo.",
       "audioReady": true
     },
     {
@@ -89,7 +89,7 @@
       "id": "menu-nr11-3-done",
       "title": "Menu, módulo 3, done",
       "file": "audios/menu-nr11-3-done.mp3",
-      "text": "N R dezoito, P E M T, P T A. Você finalizou os módulos. Toque para revisar o Módulo três. Você está aqui. Módulo três de quatro. Operação Segura, Riscos Ambientais/Aéreos e Vedações Absolutas (Procedimentos Inseguros). Instruir o operador sobre as regras de tráfego e posicionamento, o isolamento contra riscos externos (rede elétrica, vento, esmagamento) e o cumprimento rigoroso das vedações regulamentares da N R dezoito. Revisar módulo.",
+      "text": "N R vinte básico. Você finalizou os módulos. Toque para revisar o Módulo três. Você está aqui. Módulo três de quatro. Equipamentos de Proteção Coletiva (E P C), Individual (E P I) e Proteção Contra Incêndios. Detalhar a aplicação hierárquica dos Equipamentos de Proteção Coletiva (E P C) e Individual (E P I) conforme a N R seis e capacitar o aluno no reconhecimento e operação dos sistemas manuais, fixos e automáticos de proteção contra incêndio. Revisar módulo.",
       "audioReady": true
     },
     {
@@ -97,7 +97,7 @@
       "id": "menu-nr11-4-start",
       "title": "Menu, módulo 4, start",
       "file": "audios/menu-nr11-4-start.mp3",
-      "text": "N R dezoito, P E M T, P T A. Um módulo por vez. Ao concluir, o próximo é liberado. Você está aqui. Módulo quatro de quatro. Proteção Contra Quedas (N R zero seis / N R dezoito), S P I Q, Ancoragem e Boas Práticas. Detalhar a obrigatoriedade do Sistema de Proteção Individual Contra Quedas (S P I Q), as especificações do cinturão tipo paraquedista, o ponto de ancoragem no cesto aéreo, os deveres do trabalhador conforme a N R zero seis e a síntese das boas práticas operacionais. Iniciar módulo.",
+      "text": "N R vinte básico. Um módulo por vez. Ao concluir, o próximo é liberado. Você está aqui. Módulo quatro de quatro. Plano de Ação de Emergência (P A E), Operações de Risco e Resposta a Incidentes. Capacitar os trabalhadores para agir com rapidez, segurança e eficácia em situações de crise, cobrindo a estrutura do P A E, corte de utilidades, abandono de área, contenção de vazamentos e comunicação com órgãos competentes. Iniciar módulo.",
       "audioReady": true
     },
     {
@@ -105,7 +105,7 @@
       "id": "menu-nr11-4-review",
       "title": "Menu, módulo 4, review",
       "file": "audios/menu-nr11-4-review.mp3",
-      "text": "N R dezoito, P E M T, P T A. Um módulo por vez. Ao concluir, o próximo é liberado. Você está aqui. Módulo quatro de quatro. Proteção Contra Quedas (N R zero seis / N R dezoito), S P I Q, Ancoragem e Boas Práticas. Detalhar a obrigatoriedade do Sistema de Proteção Individual Contra Quedas (S P I Q), as especificações do cinturão tipo paraquedista, o ponto de ancoragem no cesto aéreo, os deveres do trabalhador conforme a N R zero seis e a síntese das boas práticas operacionais. Revisar módulo.",
+      "text": "N R vinte básico. Um módulo por vez. Ao concluir, o próximo é liberado. Você está aqui. Módulo quatro de quatro. Plano de Ação de Emergência (P A E), Operações de Risco e Resposta a Incidentes. Capacitar os trabalhadores para agir com rapidez, segurança e eficácia em situações de crise, cobrindo a estrutura do P A E, corte de utilidades, abandono de área, contenção de vazamentos e comunicação com órgãos competentes. Revisar módulo.",
       "audioReady": true
     },
     {
@@ -113,267 +113,227 @@
       "id": "menu-nr11-4-done",
       "title": "Menu, módulo 4, done",
       "file": "audios/menu-nr11-4-done.mp3",
-      "text": "N R dezoito, P E M T, P T A. Você finalizou os módulos. Toque para revisar o Módulo quatro. Você está aqui. Módulo quatro de quatro. Proteção Contra Quedas (N R zero seis / N R dezoito), S P I Q, Ancoragem e Boas Práticas. Detalhar a obrigatoriedade do Sistema de Proteção Individual Contra Quedas (S P I Q), as especificações do cinturão tipo paraquedista, o ponto de ancoragem no cesto aéreo, os deveres do trabalhador conforme a N R zero seis e a síntese das boas práticas operacionais. Revisar módulo.",
+      "text": "N R vinte básico. Você finalizou os módulos. Toque para revisar o Módulo quatro. Você está aqui. Módulo quatro de quatro. Plano de Ação de Emergência (P A E), Operações de Risco e Resposta a Incidentes. Capacitar os trabalhadores para agir com rapidez, segurança e eficácia em situações de crise, cobrindo a estrutura do P A E, corte de utilidades, abandono de área, contenção de vazamentos e comunicação com órgãos competentes. Revisar módulo.",
       "audioReady": true
     },
     {
       "index": 14,
       "id": "nr11-m1-capa",
-      "title": "Módulo 1 — Fundamentos Legais, Normativos e Tipologia das PEMT/PTA",
+      "title": "Módulo 1 — Fundamentos da NR 20, Classificação e Propriedades Físico-Químicas dos Inflamáveis",
       "file": "audios/nr11-m1-capa.mp3",
-      "text": "Módulo 1. Fundamentos legais, normativos e tipologia das plataformas elevatórias móveis de trabalho. Legislação da N R dezoito, definição de P E M T e P T A, deveres de fornecedores e modelos de plataforma.",
+      "text": "Módulo 1. Fundamentos da N R vinte, classificação e propriedades físico-químicas dos inflamáveis. Base regulamentar, campo de aplicação, exceções legais, classificação das instalações e propriedades dos inflamáveis e combustíveis.",
       "audioReady": true
     },
     {
       "index": 15,
-      "id": "nr18-m1-historico",
-      "title": "Introdução à NR 18 e o Histórico da Norma",
-      "file": "audios/nr18-m1-historico.mp3",
-      "text": "Vídeo. Introdução à N R dezoito e o Histórico da Norma. Assista ao vídeo para avançar.",
+      "id": "nr20-m1-diretrizes",
+      "title": "Diretrizes Globais da NR 20: Objetivo, Público e Abrangência",
+      "file": "audios/nr20-m1-diretrizes.mp3",
+      "text": "Vídeo. Diretrizes Globais da N R vinte: Objetivo, Público e Abrangência. Assista ao vídeo para avançar.",
       "audioReady": true
     },
     {
       "index": 16,
-      "id": "nr18-m1-escopo",
-      "title": "O que é uma PEMT/PTA e seu Escopo de Aplicação",
-      "file": "audios/nr18-m1-escopo.mp3",
-      "text": "Vídeo. O que é uma P E M T/P T A e seu Escopo de Aplicação. Assista ao vídeo para avançar.",
+      "id": "nr20-m1-definicoes",
+      "title": "Definições",
+      "file": "audios/nr20-m1-definicoes.mp3",
+      "text": "Definições. A classificação da N R vinte separa os produtos pelo ponto de fulgor e pela condição em que inflamam. Líquidos inflamáveis são líquidos que possuem ponto de fulgor menor que 60 graus Celsius. Gases inflamáveis são gases que inflamam com o ar a 20 graus Celsius e a uma pressão padrão de 101,3 quilopascals. Líquidos combustíveis são líquidos com ponto de fulgor maior que 60 graus Celsius e menor que 93 graus Celsius.",
       "audioReady": true
     },
     {
       "index": 17,
-      "id": "nr18-m1-fornecedor",
-      "title": "Deveres do Fornecedor, Locador e Regras dos Manuais",
-      "file": "audios/nr18-m1-fornecedor.mp3",
-      "text": "Vídeo. Deveres do Fornecedor, Locador e Regras dos Manuais. Assista ao vídeo para avançar.",
+      "id": "nr20-m1-classes",
+      "title": "Classes das instalações",
+      "file": "audios/nr20-m1-classes.mp3",
+      "text": "Classes das instalações. A N R vinte divide as instalações em três classes. A Classe I inclui postos de combustível e depósitos de gás de 2 a 60 toneladas ou líquidos de 10 a 5.000 metros cúbicos. A Classe II engloba engarrafadoras, transporte por dutos e estoques de gás até 600 toneladas ou líquidos até 50.000 metros cúbicos. A Classe III reúne grandes plantas, como refinarias, petroquímicas e usinas de etanol.",
       "audioReady": true
     },
     {
       "index": 18,
-      "id": "nr18-m1-plataformas",
-      "title": "Modelos de Plataformas Elevatórias Móveis de Trabalho",
-      "file": "audios/nr18-m1-plataformas.mp3",
-      "text": "Equipamentos. Modelos de plataformas elevatórias móveis de trabalho. A tela mostra cinco modelos: mastro, telescópica, tesoura, unipessoal e articulada.",
+      "id": "nr20-m1-glp",
+      "title": "Propriedades Físico-Químicas e Estudo de Caso: GLP",
+      "file": "audios/nr20-m1-glp.mp3",
+      "text": "Vídeo. Propriedades Físico-Químicas e Estudo de Caso: G L P. Assista ao vídeo para avançar.",
       "audioReady": true
     },
     {
       "index": 19,
-      "id": "nr18-m1-verticais",
-      "title": "Modelos de Elevadores Verticais: Tesoura, Mastro e Unipessoal",
-      "file": "audios/nr18-m1-verticais.mp3",
-      "text": "Vídeo. Modelos de Elevadores Verticais: Tesoura, Mastro e Unipessoal. Assista ao vídeo para avançar.",
+      "id": "nr20-m1-vapores",
+      "title": "Vapores Inflamáveis, Riscos de Explosão e Uso da FISPQ",
+      "file": "audios/nr20-m1-vapores.mp3",
+      "text": "Vídeo. Vapores Inflamáveis, Riscos de Explosão e Uso da F I S P Q. Assista ao vídeo para avançar.",
       "audioReady": true
     },
     {
       "index": 20,
-      "id": "nr18-m1-lanca",
-      "title": "Modelos de Lança: Plataformas Articuladas e Telescópicas",
-      "file": "audios/nr18-m1-lanca.mp3",
-      "text": "Vídeo. Modelos de Lança: Plataformas Articuladas e Telescópicas. Assista ao vídeo para avançar.",
-      "audioReady": true
-    },
-    {
-      "index": 21,
-      "id": "nr18-m1-vf",
+      "id": "nr20-m1-vf",
       "title": "Verdadeiro ou falso",
-      "file": "audios/nr18-m1-vf.mp3",
+      "file": "audios/nr20-m1-vf.mp3",
       "text": "Verdadeiro ou falso. Leia a frase e toque em Falso ou Verdadeiro. Acerte no mínimo quatro de cinco.",
       "audioReady": true
     },
     {
-      "index": 22,
+      "index": 21,
       "id": "nr11-m2-capa",
-      "title": "Módulo 2 — Requisitos Técnicos, Dispositivos de Segurança, Painel de Controle e Checklist Diário",
+      "title": "Módulo 2 — Controle de Fontes de Ignição, Armazenamento Seguro e Medidas de Prevenção",
       "file": "audios/nr11-m2-capa.mp3",
-      "text": "Módulo 2. Requisitos técnicos, dispositivos de segurança, painel de controle e checklist diário. Dispositivos de segurança, painel do cesto e checklist pré-operacional diário.",
+      "text": "Módulo 2. Controle de fontes de ignição, armazenamento seguro e medidas de prevenção. Fontes de ignição, aterramento elétrico, armazenamento de recipientes e manutenção preventiva.",
+      "audioReady": true
+    },
+    {
+      "index": 22,
+      "id": "nr20-m2-ignicao",
+      "title": "Mapeamento e Controle das Fontes de Ignição",
+      "file": "audios/nr20-m2-ignicao.mp3",
+      "text": "Vídeo. Mapeamento e Controle das Fontes de Ignição. Assista ao vídeo para avançar.",
       "audioReady": true
     },
     {
       "index": 23,
-      "id": "nr18-m2-dispositivos",
-      "title": "Dispositivos de Segurança Obrigatórios da PEMT",
-      "file": "audios/nr18-m2-dispositivos.mp3",
-      "text": "Vídeo. Dispositivos de Segurança Obrigatórios da P E M T. Assista ao vídeo para avançar.",
+      "id": "nr20-m2-fontes",
+      "title": "Sete fontes de ignição",
+      "file": "audios/nr20-m2-fontes.mp3",
+      "text": "Sete fontes de ignição. Devemos mapear e controlar rigorosamente sete fontes principais no ambiente de trabalho: chamas abertas, o ato de fumar, serviços a quente como solda e corte, superfícies aquecidas, eletricidade estática, faíscas mecânicas geradas pelo atrito de ferramentas e arcos elétricos. Para evitar acúmulos perigosos, as instalações devem contar com sistemas de ventilação adequada e isolamento rigoroso de processos e operações perigosas, seja em ambientes confinados, externos ou compartimentados.",
       "audioReady": true
     },
     {
       "index": 24,
-      "id": "nr18-m2-dispositivos-lista",
-      "title": "Dispositivos da PEMT",
-      "file": "audios/nr18-m2-dispositivos-lista.mp3",
-      "text": "Segurança. Dispositivos da P E M T. A P E M T deve ser dotada de nivelamento. Dispositivos de segurança que garantem seu perfeito nivelamento no ponto de trabalho, conforme especificação do fabricante. Alça de apoio interno. Ponto de apoio fixado no interior do cesto ou plataforma para o operador manter equilíbrio, estabilidade e postura segura durante o trabalho em altura. Proteção contra quedas. Sistema de proteção contra quedas que atenda às especificações do fabricante ou, na falta destas, ao disposto na N R doze. Parada de emergência. Botão de parada de emergência. Descida de emergência. Dispositivo de emergência que possibilite baixar o trabalhador e a plataforma até o solo em caso de pane elétrica, hidráulica ou mecânica. Sinalização sonora. Sistema sonoro automático de sinalização acionado durante a subida e a descida. Proteção elétrica. Proteção contra choque elétrico. Horímetro. Instrumento que mede o tempo de funcionamento de um motor ou equipamento.",
+      "id": "nr20-m2-aterramento",
+      "title": "Aterramento Elétrico e Prevenção de Eletricidade Estática",
+      "file": "audios/nr20-m2-aterramento.mp3",
+      "text": "Vídeo. Aterramento Elétrico e Prevenção de Eletricidade Estática. Assista ao vídeo para avançar.",
       "audioReady": true
     },
     {
       "index": 25,
-      "id": "nr18-m2-chassi",
-      "title": "Estabilidade do Chassi, Normas e Manutenção Capacitada",
-      "file": "audios/nr18-m2-chassi.mp3",
-      "text": "Vídeo. Estabilidade do Chassi, Normas e Manutenção Capacitada. Assista ao vídeo para avançar.",
+      "id": "nr20-m2-armazenamento",
+      "title": "Regras Estritas de Armazenamento e Estocagem de Recipientes",
+      "file": "audios/nr20-m2-armazenamento.mp3",
+      "text": "Vídeo. Regras Estritas de Armazenamento e Estocagem de Recipientes. Assista ao vídeo para avançar.",
       "audioReady": true
     },
     {
       "index": 26,
-      "id": "nr18-m2-painel",
-      "title": "Sensor de Sobrecarga e Painel de Comando do Cesto",
-      "file": "audios/nr18-m2-painel.mp3",
-      "text": "Vídeo. Sensor de Sobrecarga e Painel de Comando do Cesto. Assista ao vídeo para avançar.",
+      "id": "nr20-m2-manutencao",
+      "title": "Organização, Limpeza e Manutenção Preventiva",
+      "file": "audios/nr20-m2-manutencao.mp3",
+      "text": "Vídeo. Organização, Limpeza e Manutenção Preventiva. Assista ao vídeo para avançar.",
       "audioReady": true
     },
     {
       "index": 27,
-      "id": "nr18-m2-inspecao",
-      "title": "Inspeção Diária do Local de Trabalho",
-      "file": "audios/nr18-m2-inspecao.mp3",
-      "text": "Vídeo. Inspeção Diária do Local de Trabalho. Assista ao vídeo para avançar.",
+      "id": "nr20-m2-pares",
+      "title": "Associe os pares",
+      "file": "audios/nr20-m2-pares.mp3",
+      "text": "Associe os pares. Toque em uma medida e depois no que vale para ela. São cinco pares: aterramento, trabalho a quente, palete, empilhamento e tambor vazio.",
       "audioReady": true
     },
     {
       "index": 28,
-      "id": "nr18-m2-checklist",
-      "title": "Checklist Pré-operacional Diário",
-      "file": "audios/nr18-m2-checklist.mp3",
-      "text": "Vídeo. Checklist Pré-operacional Diário. Assista ao vídeo para avançar.",
+      "id": "nr11-m3-capa",
+      "title": "Módulo 3 — Equipamentos de Proteção Coletiva (EPC), Individual (EPI) e Proteção Contra Incêndios",
+      "file": "audios/nr11-m3-capa.mp3",
+      "text": "Módulo 3. Equipamentos de proteção coletiva, E P C, individual, E P I, e proteção contra incêndios. Hierarquia de proteção na N R seis e sistemas de combate a incêndio.",
       "audioReady": true
     },
     {
       "index": 29,
-      "id": "nr18-m2-console",
-      "title": "Libera a subida",
-      "file": "audios/nr18-m2-console.mp3",
-      "text": "Libera a subida. Uma situação por vez. Toque na ação certa.",
+      "id": "nr20-m3-epc",
+      "title": "Equipamentos de Proteção Coletiva (EPC) e Hierarquia de Segurança",
+      "file": "audios/nr20-m3-epc.mp3",
+      "text": "Vídeo. Equipamentos de Proteção Coletiva (E P C) e Hierarquia de Segurança. Assista ao vídeo para avançar.",
       "audioReady": true
     },
     {
       "index": 30,
-      "id": "nr11-m3-capa",
-      "title": "Módulo 3 — Operação Segura, Riscos Ambientais/Aéreos e Vedações Absolutas (Procedimentos Inseguros)",
-      "file": "audios/nr11-m3-capa.mp3",
-      "text": "Módulo 3. Operação segura, riscos ambientais e aéreos, e vedações absolutas, procedimentos inseguros. Deslocamento, riscos elétricos e de vento, e o que a N R dezoito proíbe na operação.",
+      "id": "nr20-m3-epi",
+      "title": "Equipamentos de Proteção Individual (EPI), Regras da NR-6 e o CA",
+      "file": "audios/nr20-m3-epi.mp3",
+      "text": "Vídeo. Equipamentos de Proteção Individual (E P I), Regras da N R seis e o C A. Assista ao vídeo para avançar.",
       "audioReady": true
     },
     {
       "index": 31,
-      "id": "nr18-m3-piso",
-      "title": "Regras de Movimentação, Deslocamento e Condições do Piso",
-      "file": "audios/nr18-m3-piso.mp3",
-      "text": "Vídeo. Regras de Movimentação, Deslocamento e Condições do Piso. Assista ao vídeo para avançar.",
+      "id": "nr20-m3-epi-corpo",
+      "title": "Seleção de EPIs por Parte do Corpo e Traje Estrutural de Combate",
+      "file": "audios/nr20-m3-epi-corpo.mp3",
+      "text": "Seleção de E P Is por parte do corpo e traje estrutural de combate. A seleção do E P I deve proteger cada parte do corpo exposta aos riscos.",
       "audioReady": true
     },
     {
       "index": 32,
-      "id": "nr18-m3-aereos",
-      "title": "Riscos Aéreos, Esmagamento e Colisões Superiores",
-      "file": "audios/nr18-m3-aereos.mp3",
-      "text": "Vídeo. Riscos Aéreos, Esmagamento e Colisões Superiores. Assista ao vídeo para avançar.",
+      "id": "nr20-m3-incendio",
+      "title": "Sistemas de Proteção Contra Incêndios: Extintores, Água Nebulizada e Espuma",
+      "file": "audios/nr20-m3-incendio.mp3",
+      "text": "Vídeo. Sistemas de Proteção Contra Incêndios: Extintores, Água Nebulizada e Espuma. Assista ao vídeo para avançar.",
       "audioReady": true
     },
     {
       "index": 33,
-      "id": "nr18-m3-eletrico",
-      "title": "Risco Elétrico e Distância Mínima de Segurança (3 Metros)",
-      "file": "audios/nr18-m3-eletrico.mp3",
-      "text": "Vídeo. Risco Elétrico e Distância Mínima de Segurança (3 Metros). Assista ao vídeo para avançar.",
+      "id": "nr20-m3-combate",
+      "title": "Conhecimento e Utilização dos Sistemas de Segurança Contra Incêndio com Inflamáveis",
+      "file": "audios/nr20-m3-combate.mp3",
+      "text": "Conhecimento e utilização dos sistemas de segurança contra incêndio com inflamáveis. Tipos de hidrantes de coluna. Kit de segurança. Sinalização de segurança. Armário de mangueiras.",
       "audioReady": true
     },
     {
       "index": 34,
-      "id": "nr18-m3-vento",
-      "title": "Ação do Vento (Limite de 45 km/h) e Organização de Ferramentas",
-      "file": "audios/nr18-m3-vento.mp3",
-      "text": "Vídeo. Ação do Vento (Limite de 45 km/h) e Organização de Ferramentas. Assista ao vídeo para avançar.",
+      "id": "nr20-m3-acao3",
+      "title": "Ação certa",
+      "file": "audios/nr20-m3-acao3.mp3",
+      "text": "Ação certa. Uma situação por vez. Toque na ação certa. São três situações sobre o C A, o extintor e a proteção do tanque.",
       "audioReady": true
     },
     {
       "index": 35,
-      "id": "nr18-m3-vedacoes",
-      "title": "Vedações da PEMT",
-      "file": "audios/nr18-m3-vedacoes.mp3",
-      "text": "Vedação. Vedações da P E M T. O item dezoito ponto doze ponto trinta e nove proíbe. Letra a. Usar pranchas, escadas, caixas ou qualquer dispositivo sobre o cesto para alcançar maior altura. Letra b. Usar a P E M T como guindaste ou guincho para içar cargas. Letra c. Fazer trabalhos sob intempéries ou condições climáticas perigosas. Letra d. Operar a máquina contrariando os limites do fabricante de vento, inclinação ou fiação elétrica. Letra e. Transportar pessoas ou materiais alheios ao serviço em execução.",
+      "id": "nr11-m4-capa",
+      "title": "Módulo 4 — Plano de Ação de Emergência (PAE), Operações de Risco e Resposta a Incidentes",
+      "file": "audios/nr11-m4-capa.mp3",
+      "text": "Módulo 4. Plano de ação de emergência, P A E, operações de risco e resposta a incidentes. Estrutura do P A E, corte de utilidades, abandono de área, contenção de vazamentos e comunicação com os órgãos competentes.",
       "audioReady": true
     },
     {
       "index": 36,
-      "id": "nr18-m3-inseguros",
-      "title": "Análise de Procedimentos Inseguros e Prevenção de Acidentes",
-      "file": "audios/nr18-m3-inseguros.mp3",
-      "text": "Vídeo. Análise de Procedimentos Inseguros e Prevenção de Acidentes. Assista ao vídeo para avançar.",
+      "id": "nr20-m4-pae",
+      "title": "Conceito de Emergência, Estrutura do PAE e Origens de Risco",
+      "file": "audios/nr20-m4-pae.mp3",
+      "text": "Vídeo. Conceito de Emergência, Estrutura do P A E e Origens de Risco. Assista ao vídeo para avançar.",
       "audioReady": true
     },
     {
       "index": 37,
-      "id": "nr18-m3-transposicao",
-      "title": "Proibição de Transposição de Nível e Operação sobre Veículos",
-      "file": "audios/nr18-m3-transposicao.mp3",
-      "text": "Item dezoito ponto doze ponto quarenta e um. Proibição de transposição de nível e operação sobre veículos. A P E M T não transfere pessoas de um nível para o outro. Sair do cesto em altura. O cesto é o local de trabalho do início ao fim da tarefa. Escalar o guarda-corpo ou desembarcar em telhado, laje ou estrutura elevada. Posicionar ou operar a P E M T sobre caminhão, carreta, carro, vagão ou balsa. Posicionar ou operar a P E M T sobre estrutura de andaime. A plataforma fica apoiada direto em solo firme.",
+      "id": "nr20-m4-vazamentos",
+      "title": "Emergências com Inflamáveis",
+      "file": "audios/nr20-m4-vazamentos.mp3",
+      "text": "Emergências com inflamáveis. Em pequenos vazamentos, lavar a área com grande quantidade de água. Em grandes vazamentos: isolar a área, sinalizar o local, afastar os curiosos, eliminar as fontes de ignição, impedir a contaminação de fontes, lagos e rios, absorver o produto com areia, terra ou outro material absorvente e avisar imediatamente as autoridades locais.",
       "audioReady": true
     },
     {
       "index": 38,
-      "id": "nr18-m3-console",
-      "title": "Pode ou para",
-      "file": "audios/nr18-m3-console.mp3",
-      "text": "Pode ou para. Uma situação por vez. Toque na ação certa.",
+      "id": "nr20-m4-brigada",
+      "title": "Atuação da Brigada, Primeiros Socorros e Cortes de Segurança",
+      "file": "audios/nr20-m4-brigada.mp3",
+      "text": "Vídeo. Atuação da Brigada, Primeiros Socorros e Cortes de Segurança. Assista ao vídeo para avançar.",
       "audioReady": true
     },
     {
       "index": 39,
-      "id": "nr11-m4-capa",
-      "title": "Módulo 4 — Proteção Contra Quedas (NR 06 / NR 18), SPIQ, Ancoragem e Boas Práticas",
-      "file": "audios/nr11-m4-capa.mp3",
-      "text": "Módulo 4. Proteção contra quedas, N R zero seis e N R dezoito, S P I Q, ancoragem e boas práticas. S P I Q, cinturão paraquedista, ancoragem no cesto e deveres da N R zero seis.",
+      "id": "nr20-m4-abandono",
+      "title": "Protocolo de Abandono de Área e Contenção de Vazamentos",
+      "file": "audios/nr20-m4-abandono.mp3",
+      "text": "Vídeo. Protocolo de Abandono de Área e Contenção de Vazamentos. Assista ao vídeo para avançar.",
       "audioReady": true
     },
     {
       "index": 40,
-      "id": "nr18-m4-epi",
-      "title": "Equipamento de Proteção Individual (EPI) e a NR 06",
-      "file": "audios/nr18-m4-epi.mp3",
-      "text": "Vídeo. Equipamento de Proteção Individual (E P I) e a N R zero seis. Assista ao vídeo para avançar.",
+      "id": "nr20-m4-notificacao",
+      "title": "Análise Dinâmica de Risco, Notificação Ambiental e Quiz do PAE",
+      "file": "audios/nr20-m4-notificacao.mp3",
+      "text": "Vídeo. Análise Dinâmica de Risco, Notificação Ambiental e Quiz do P A E. Assista ao vídeo para avançar.",
       "audioReady": true
     },
     {
       "index": 41,
-      "id": "nr18-m4-deveres",
-      "title": "As Responsabilidades do Colaborador sobre o EPI (NR 06)",
-      "file": "audios/nr18-m4-deveres.mp3",
-      "text": "Vídeo. As Responsabilidades do Colaborador sobre o E P I (N R zero seis). Assista ao vídeo para avançar.",
-      "audioReady": true
-    },
-    {
-      "index": 42,
-      "id": "nr18-m4-epi-foto",
-      "title": "EPI — Equipamento de Proteção Individual para Trabalho em Altura",
-      "file": "audios/nr18-m4-epi-foto.mp3",
-      "text": "E P I. Equipamento de proteção individual para trabalho em altura. Equipamento de segurança utilizado para proteção contra risco de queda no posicionamento e movimentação nos trabalhos em altura, sendo utilizado em conjunto com cinturão de segurança tipo paraquedista. Na imagem: capacete, cinturão paraquedista, talabarte, luvas, bota e óculos.",
-      "audioReady": true
-    },
-    {
-      "index": 43,
-      "id": "nr18-m4-spiq",
-      "title": "Sistema de Proteção Individual Contra Quedas (SPIQ) e Ponto de Ancoragem",
-      "file": "audios/nr18-m4-spiq.mp3",
-      "text": "Vídeo. Sistema de Proteção Individual Contra Quedas (S P I Q) e Ponto de Ancoragem. Assista ao vídeo para avançar.",
-      "audioReady": true
-    },
-    {
-      "index": 44,
-      "id": "nr18-m4-cinturao",
-      "title": "Cinturão de Segurança Tipo Paraquedista e Ajuste ao Corpo",
-      "file": "audios/nr18-m4-cinturao.mp3",
-      "text": "Vídeo. Cinturão de Segurança Tipo Paraquedista e Ajuste ao Corpo. Assista ao vídeo para avançar.",
-      "audioReady": true
-    },
-    {
-      "index": 45,
-      "id": "nr18-m4-dicas",
-      "title": "Dicas Fundamentais de Segurança e Encerramento do Treinamento",
-      "file": "audios/nr18-m4-dicas.mp3",
-      "text": "Vídeo. Dicas Fundamentais de Segurança e Encerramento do Treinamento. Assista ao vídeo para avançar.",
-      "audioReady": true
-    },
-    {
-      "index": 46,
       "id": "nr18-m4-console",
       "title": "Cinto certo",
       "file": "audios/nr18-m4-console.mp3",
@@ -381,11 +341,11 @@
       "audioReady": true
     },
     {
-      "index": 47,
+      "index": 42,
       "id": "nr11-m4-final",
       "title": "Parabéns",
       "file": "audios/nr11-m4-final.mp3",
-      "text": "Conclusão. Treinamento concluído. Parabéns. Você concluiu o treinamento de N R dezoito, P E M T e P T A. Cinto ancorado no ponto do fabricante e cultura de prevencionismo. N R dezoito. P E M T, P T A. S P I Q.",
+      "text": "Conclusão. Treinamento concluído. Parabéns. Você concluiu o treinamento de N R vinte, Segurança e Saúde no Trabalho com Inflamáveis e Combustíveis. Cinto ancorado no ponto do fabricante e cultura de prevencionismo.",
       "audioReady": true
     }
   ]

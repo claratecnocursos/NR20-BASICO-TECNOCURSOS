@@ -249,8 +249,8 @@ window.QUESTION_SCREEN_SESSION = {
       title: "Equipamentos de Proteção Coletiva (EPC), Individual (EPI) e Proteção Contra Incêndios",
       objective: "Detalhar a aplicação hierárquica dos Equipamentos de Proteção Coletiva (EPC) e Individual (EPI) conforme a NR-6 e capacitar o aluno no reconhecimento e operação dos sistemas manuais, fixos e automáticos de proteção contra incêndio.",
       titleUnlock: {
-        title: "OPERAÇÃO NO LUGAR",
-        body: "Você separou o deslocamento seguro, o risco aéreo, os 3 metros, o vento e a vedação.",
+        title: "AÇÃO CERTA",
+        body: "Você escolheu o CA, o extintor e a proteção do tanque.",
         icon: "✓"
       },
       screens: [
@@ -264,155 +264,102 @@ window.QUESTION_SCREEN_SESSION = {
           transcript: "Módulo 3. Equipamentos de proteção coletiva, EPC, individual, EPI, e proteção contra incêndios. Hierarquia de proteção na NR 6 e sistemas de combate a incêndio."
         },
         {
-          id: "nr18-m3-piso",
+          id: "nr20-m3-epc",
           type: "video",
           kicker: "Vídeo",
-          title: "Regras de Movimentação, Deslocamento e Condições do Piso",
-          playerId: "panda-15dae196-7df2-46d2-90c3-4f7db4c3606f",
-          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=15dae196-7df2-46d2-90c3-4f7db4c3606f"
+          title: "Equipamentos de Proteção Coletiva (EPC) e Hierarquia de Segurança",
+          playerId: "panda-ac316cca-b60d-448e-9de8-060c3334a1c7",
+          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=ac316cca-b60d-448e-9de8-060c3334a1c7"
         },
         {
-          id: "nr18-m3-aereos",
+          id: "nr20-m3-epi",
           type: "video",
           kicker: "Vídeo",
-          title: "Riscos Aéreos, Esmagamento e Colisões Superiores",
-          playerId: "panda-132f4deb-897d-48fb-9c19-8a907914ae52",
-          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=132f4deb-897d-48fb-9c19-8a907914ae52"
+          title: "Equipamentos de Proteção Individual (EPI), Regras da NR-6 e o CA",
+          playerId: "panda-7082a746-7133-451a-a3af-43dad9216aff",
+          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=7082a746-7133-451a-a3af-43dad9216aff"
         },
         {
-          id: "nr18-m3-eletrico",
-          type: "video",
-          kicker: "Vídeo",
-          title: "Risco Elétrico e Distância Mínima de Segurança (3 Metros)",
-          playerId: "panda-8b7d252d-2503-4cdf-8ed1-2d6c775607d1",
-          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=8b7d252d-2503-4cdf-8ed1-2d6c775607d1"
-        },
-        {
-          id: "nr18-m3-vento",
-          type: "video",
-          kicker: "Vídeo",
-          title: "Ação do Vento (Limite de 45 km/h) e Organização de Ferramentas",
-          playerId: "panda-a4bbe9c8-f91b-44eb-bde9-ef2aa7fd6cf4",
-          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=a4bbe9c8-f91b-44eb-bde9-ef2aa7fd6cf4"
-        },
-        {
-          id: "nr18-m3-vedacoes",
+          id: "nr20-m3-epi-corpo",
           type: "content",
-          layout: "bans",
-          kicker: "Vedação",
-          eyebrow: "Vedação",
-          title: "Vedações da PEMT",
-          accent: "PEMT",
-          body: "O item 18.12.39 proíbe:",
-          transcript: "Vedação. Vedações da PEMT. O item dezoito ponto doze ponto trinta e nove proíbe. Letra a. Usar pranchas, escadas, caixas ou qualquer dispositivo sobre o cesto para alcançar maior altura. Letra b. Usar a PEMT como guindaste ou guincho para içar cargas. Letra c. Fazer trabalhos sob intempéries ou condições climáticas perigosas. Letra d. Operar a máquina contrariando os limites do fabricante de vento, inclinação ou fiação elétrica. Letra e. Transportar pessoas ou materiais alheios ao serviço em execução.",
-          items: [
-            {
-              letter: "a",
-              text: "Usar pranchas, escadas, caixas ou qualquer dispositivo sobre o cesto para alcançar maior altura."
-            },
-            {
-              letter: "b",
-              text: "Usar a PEMT como guindaste ou guincho para içar cargas."
-            },
-            {
-              letter: "c",
-              text: "Fazer trabalhos sob intempéries ou condições climáticas perigosas."
-            },
-            {
-              letter: "d",
-              text: "Operar a máquina contrariando os limites do fabricante de vento, inclinação ou fiação elétrica."
-            },
-            {
-              letter: "e",
-              text: "Transportar pessoas ou materiais alheios ao serviço em execução."
-            }
-          ]
+          layout: "figure",
+          wide: true,
+          title: "Seleção de EPIs por Parte do Corpo e Traje Estrutural de Combate",
+          body: "A seleção do EPI deve proteger cada parte do corpo exposta aos riscos.",
+          image: "assets/fotos/EPI.png",
+          imageAlt: "Seleção de EPIs por parte do corpo e traje estrutural de combate a incêndio",
+          transcript: "Seleção de EPIs por parte do corpo e traje estrutural de combate. A seleção do EPI deve proteger cada parte do corpo exposta aos riscos."
         },
         {
-          id: "nr18-m3-inseguros",
+          id: "nr20-m3-incendio",
           type: "video",
           kicker: "Vídeo",
-          title: "Análise de Procedimentos Inseguros e Prevenção de Acidentes",
-          playerId: "panda-87a37b23-1a27-44c6-aeb3-8e5b2509eca3",
-          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=87a37b23-1a27-44c6-aeb3-8e5b2509eca3"
+          title: "Sistemas de Proteção Contra Incêndios: Extintores, Água Nebulizada e Espuma",
+          playerId: "panda-e9d41615-0e11-4872-b488-4d1ea834c31f",
+          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=e9d41615-0e11-4872-b488-4d1ea834c31f"
         },
         {
-          id: "nr18-m3-transposicao",
+          id: "nr20-m3-combate",
           type: "content",
-          layout: "bans",
-          kicker: "18.12.41",
-          eyebrow: "Item 18.12.41",
-          title: "Proibição de Transposição de Nível e Operação sobre Veículos",
-          body: "A PEMT não transfere pessoas de um nível para o outro.",
-          transcript: "Item dezoito ponto doze ponto quarenta e um. Proibição de transposição de nível e operação sobre veículos. A PEMT não transfere pessoas de um nível para o outro. Sair do cesto em altura. O cesto é o local de trabalho do início ao fim da tarefa. Escalar o guarda-corpo ou desembarcar em telhado, laje ou estrutura elevada. Posicionar ou operar a PEMT sobre caminhão, carreta, carro, vagão ou balsa. Posicionar ou operar a PEMT sobre estrutura de andaime. A plataforma fica apoiada direto em solo firme.",
-          note: "A plataforma fica apoiada direto em solo firme.",
-          items: [
+          title: "Conhecimento e Utilização dos Sistemas de Segurança Contra Incêndio com Inflamáveis",
+          stack: [
             {
-              text: "Sair do cesto em altura. O cesto é o local de trabalho do início ao fim da tarefa."
+              image: "assets/fotos/HIDRANTES.png",
+              imageAlt: "Tipos de hidrantes de coluna",
+              caption: "Tipos de Hidrantes de Coluna"
             },
             {
-              text: "Escalar o guarda-corpo ou desembarcar em telhado, laje ou estrutura elevada."
+              image: "assets/fotos/Kit de Segurança.png",
+              imageAlt: "Kit de segurança com mangueira, esguicho, adaptador, chave Storz e registro",
+              caption: "Kit de segurança"
             },
             {
-              text: "Posicionar ou operar a PEMT sobre caminhão, carreta, carro, vagão ou balsa."
+              image: "assets/fotos/Sinalização de Emergência.png",
+              imageAlt: "Placas de rota de fuga, saída e equipamentos de incêndio",
+              caption: "Sinalização de segurança"
             },
             {
-              text: "Posicionar ou operar a PEMT sobre estrutura de andaime."
+              image: "assets/fotos/Armário de Mangueiras.png",
+              imageAlt: "Armário de mangueiras com duas mangueiras e registro",
+              caption: "Armário de mangueiras"
             }
-          ]
+          ],
+          transcript: "Conhecimento e utilização dos sistemas de segurança contra incêndio com inflamáveis. Tipos de hidrantes de coluna. Kit de segurança. Sinalização de segurança. Armário de mangueiras."
         },
         {
-          id: "nr18-m3-console",
+          id: "nr20-m3-acao3",
           type: "console",
-          title: "Pode ou para",
+          title: "Ação certa",
           body: "Uma situação por vez. Toque na ação certa.",
-          transcript: "Pode ou para. Uma situação por vez. Toque na ação certa.",
-          doneText: "As situações estão certas.",
+          transcript: "Ação certa. Uma situação por vez. Toque na ação certa. São três situações sobre o CA, o extintor e a proteção do tanque.",
+          doneText: "As três situações estão certas.",
           doneLabel: "Concluir",
           items: [
             {
-              ask: "O caminho tem buraco e rampa. Como você desloca a PEMT?",
-              hint: "Visão livre, longe de buraco, rampa e vala, com a velocidade do piso. O piso firme é liso, uniforme e consolidado.",
-              answer: "desvio",
-              options: [
-                { id: "cima", text: "Passo por cima" },
-                { id: "desvio", text: "Desvio e reduzo" }
-              ]
-            },
-            {
-              ask: "Há viga e tubulação acima do cesto. O que você faz antes de subir?",
-              hint: "Olhe o topo do cesto. O corpo não pode ser prensado contra viga, telhado ou tubulação.",
-              answer: "olhar",
-              options: [
-                { id: "painel", text: "Subo olhando o painel" },
-                { id: "olhar", text: "Olho o topo e subo devagar" }
-              ]
-            },
-            {
-              ask: "A lança aponta para uma rede energizada. Qual a distância mínima?",
-              hint: "São 3 metros de rede ou fiação energizada. O arco elétrico pode saltar sem contato.",
-              answer: "tres",
-              options: [
-                { id: "perto", text: "Posso chegar perto" },
-                { id: "tres", text: "No mínimo 3 metros" }
-              ]
-            },
-            {
-              ask: "O vento passou de 45 km/h. O que você faz?",
-              hint: "Acima de 45 km/h, a plataforma volta ao solo. Cabo e caixa não ficam pendurados para fora do cesto.",
-              answer: "solo",
-              options: [
-                { id: "sigo", text: "Sigo elevado" },
-                { id: "solo", text: "Recolho ao solo" }
-              ]
-            },
-            {
-              ask: "A tesoura está em cima dos garfos da empilhadeira. Você sobe?",
-              hint: "Não opere. Também é proibido escada ou caixa no cesto, usar a PEMT como guindaste, sair no telhado e pôr a máquina sobre caminhão ou andaime.",
+              ask: "Chegou um EPI importado sem o número do CA. Pode usar?",
+              hint: "Nacional ou importado, o EPI precisa do Certificado de Aprovação. A empresa só fornece item aprovado pelo Ministério do Trabalho.",
               answer: "nao",
               options: [
-                { id: "subo", text: "Subo para ganhar altura" },
-                { id: "nao", text: "Não opero" }
+                { id: "sim", text: "Pode, se a marca for boa" },
+                { id: "nao", text: "Não. Sem CA, não uso" }
+              ]
+            },
+            {
+              ask: "O depósito tem só líquidos e gases inflamáveis. Qual extintor?",
+              hint: "Só líquidos e gases: Pó BC. Se também houver sólido combustível, o extintor é o Pó ABC.",
+              answer: "bc",
+              options: [
+                { id: "abc", text: "Pó ABC, porque sempre serve" },
+                { id: "bc", text: "Pó BC" }
+              ]
+            },
+            {
+              ask: "O tanque precisa ser resfriado e o derramamento, abafado. O que entra?",
+              hint: "A água nebulizada refrigera o tanque. A espuma mecânica abafa o fogo e segura a evaporação do líquido.",
+              answer: "sistemas",
+              options: [
+                { id: "jato", text: "Jato cheio de água no líquido" },
+                { id: "sistemas", text: "Água nebulizada e espuma mecânica" }
               ]
             }
           ]
@@ -439,58 +386,57 @@ window.QUESTION_SCREEN_SESSION = {
           transcript: "Módulo 4. Plano de ação de emergência, PAE, operações de risco e resposta a incidentes. Estrutura do PAE, corte de utilidades, abandono de área, contenção de vazamentos e comunicação com os órgãos competentes."
         },
         {
-          id: "nr18-m4-epi",
+          id: "nr20-m4-pae",
           type: "video",
           kicker: "Vídeo",
-          title: "Equipamento de Proteção Individual (EPI) e a NR 06",
-          playerId: "panda-26d1d3d8-bdae-41b5-8feb-2c38ff787d6a",
-          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=26d1d3d8-bdae-41b5-8feb-2c38ff787d6a"
+          title: "Conceito de Emergência, Estrutura do PAE e Origens de Risco",
+          playerId: "panda-998964f0-070f-458f-ac8b-6c993bfa06dd",
+          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=998964f0-070f-458f-ac8b-6c993bfa06dd"
         },
         {
-          id: "nr18-m4-deveres",
-          type: "video",
-          kicker: "Vídeo",
-          title: "As Responsabilidades do Colaborador sobre o EPI (NR 06)",
-          playerId: "panda-3cc63010-d59e-4a8d-ab10-cd2606e63cec",
-          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=3cc63010-d59e-4a8d-ab10-cd2606e63cec"
-        },
-        {
-          id: "nr18-m4-epi-foto",
+          id: "nr20-m4-vazamentos",
           type: "content",
-          layout: "models",
-          kicker: "EPI",
-          eyebrow: "EPI",
-          title: "EPI — Equipamento de Proteção Individual para Trabalho em Altura",
-          lines: ["EPI — Equipamento de Proteção Individual"],
-          accent: "Para Trabalho em Altura",
-          quote: "Equipamento de segurança utilizado para proteção contra risco de queda no posicionamento e movimentação nos trabalhos em altura, sendo utilizado em conjunto com cinturão de segurança tipo paraquedista.",
-          image: "assets/fotos/epi.jpg",
-          imageAlt: "Capacete, cinturão paraquedista, talabarte, luvas, bota e óculos",
-          transcript: "EPI. Equipamento de proteção individual para trabalho em altura. Equipamento de segurança utilizado para proteção contra risco de queda no posicionamento e movimentação nos trabalhos em altura, sendo utilizado em conjunto com cinturão de segurança tipo paraquedista. Na imagem: capacete, cinturão paraquedista, talabarte, luvas, bota e óculos."
+          layout: "list",
+          title: "Emergências com Inflamáveis",
+          lead: {
+            label: "Pequenos vazamentos",
+            text: "Lavar a área com grande quantidade de água."
+          },
+          listTitle: "Grandes vazamentos",
+          bullets: [
+            "Isolar a área",
+            "Sinalizar o local",
+            "Afastar os curiosos",
+            "Eliminar as fontes de ignição da área",
+            "Impedir a contaminação das fontes, lagos e rios, através do uso de barreiras e dispositivos que possam confinar o produto",
+            "Absorver com areia, terra ou outro material absorvente e recolher em embalagem apropriadas para posterior destruição",
+            "Avisar imediatamente as autoridades locais: Bombeiros, Órgão Ambiental, Defesa Civil e Polícia Rodoviária"
+          ],
+          transcript: "Emergências com inflamáveis. Em pequenos vazamentos, lavar a área com grande quantidade de água. Em grandes vazamentos: isolar a área, sinalizar o local, afastar os curiosos, eliminar as fontes de ignição, impedir a contaminação de fontes, lagos e rios, absorver o produto com areia, terra ou outro material absorvente e avisar imediatamente as autoridades locais."
         },
         {
-          id: "nr18-m4-spiq",
+          id: "nr20-m4-brigada",
           type: "video",
           kicker: "Vídeo",
-          title: "Sistema de Proteção Individual Contra Quedas (SPIQ) e Ponto de Ancoragem",
-          playerId: "panda-b29b8361-1b54-4547-81f4-c4b6515b3d67",
-          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=b29b8361-1b54-4547-81f4-c4b6515b3d67"
+          title: "Atuação da Brigada, Primeiros Socorros e Cortes de Segurança",
+          playerId: "panda-b6655311-b205-4185-bab8-edd457471c60",
+          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=b6655311-b205-4185-bab8-edd457471c60"
         },
         {
-          id: "nr18-m4-cinturao",
+          id: "nr20-m4-abandono",
           type: "video",
           kicker: "Vídeo",
-          title: "Cinturão de Segurança Tipo Paraquedista e Ajuste ao Corpo",
-          playerId: "panda-32f42640-7f1d-4a5c-9915-d1154bab0cf8",
-          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=32f42640-7f1d-4a5c-9915-d1154bab0cf8"
+          title: "Protocolo de Abandono de Área e Contenção de Vazamentos",
+          playerId: "panda-819f11bd-08e0-4e12-8458-dee74a97ab48",
+          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=819f11bd-08e0-4e12-8458-dee74a97ab48"
         },
         {
-          id: "nr18-m4-dicas",
+          id: "nr20-m4-notificacao",
           type: "video",
           kicker: "Vídeo",
-          title: "Dicas Fundamentais de Segurança e Encerramento do Treinamento",
-          playerId: "panda-e38dea99-305c-4ee6-8c35-f59bdd79de33",
-          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=e38dea99-305c-4ee6-8c35-f59bdd79de33"
+          title: "Análise Dinâmica de Risco, Notificação Ambiental e Quiz do PAE",
+          playerId: "panda-8d211acc-963b-4a28-aa67-cf16d8802274",
+          embed: "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=8d211acc-963b-4a28-aa67-cf16d8802274"
         },
         {
           id: "nr18-m4-console",
@@ -558,7 +504,7 @@ window.QUESTION_SCREEN_SESSION = {
           body: "Você concluiu o treinamento de NR 20 - Segurança e Saúde no Trabalho com Inflamáveis e Combustíveis.",
           quote: "Cinto ancorado no ponto do fabricante e cultura de prevencionismo.",
           chips: ["NR-18", "PEMT/PTA", "SPIQ"],
-          transcript: "Conclusão. Treinamento concluído. Parabéns. Você concluiu o treinamento de NR 18, PEMT e PTA. Cinto ancorado no ponto do fabricante e cultura de prevencionismo. NR 18. PEMT, PTA. SPIQ."
+          transcript: "Conclusão. Treinamento concluído. Parabéns. Você concluiu o treinamento de NR 20, Segurança e Saúde no Trabalho com Inflamáveis e Combustíveis. Cinto ancorado no ponto do fabricante e cultura de prevencionismo."
         }
       ]
     }
