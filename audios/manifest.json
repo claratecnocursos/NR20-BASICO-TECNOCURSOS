@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-11T11:40:10.501Z",
+  "generatedAt": "2026-11-11T16:21:37.631Z",
   "source": "question-screen-data.js",
   "audioDir": "audios",
   "slides": [
@@ -345,7 +345,7 @@
       "id": "nr11-m4-final",
       "title": "Parabéns",
       "file": "audios/nr11-m4-final.mp3",
-      "text": "Conclusão. Treinamento concluído. Parabéns. Você concluiu o treinamento de N R vinte, Segurança e Saúde no Trabalho com Inflamáveis e Combustíveis. Cinto ancorado no ponto do fabricante e cultura de prevencionismo.",
+      "text": "Conclusão. Treinamento concluído. Parabéns. Você concluiu o treinamento de N R vinte, Segurança e Saúde no Trabalho com Inflamáveis e Combustíveis. Proteger o coletivo é sempre a primeira escolha.",
       "audioReady": true
     }
   ]

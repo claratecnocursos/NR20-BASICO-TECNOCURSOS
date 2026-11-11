@@ -502,9 +502,9 @@ window.QUESTION_SCREEN_SESSION = {
           eyebrow: "Treinamento concluído",
           title: "Parabéns",
           body: "Você concluiu o treinamento de NR 20 - Segurança e Saúde no Trabalho com Inflamáveis e Combustíveis.",
-          quote: "Cinto ancorado no ponto do fabricante e cultura de prevencionismo.",
-          chips: ["NR-18", "PEMT/PTA", "SPIQ"],
-          transcript: "Conclusão. Treinamento concluído. Parabéns. Você concluiu o treinamento de NR 20, Segurança e Saúde no Trabalho com Inflamáveis e Combustíveis. Cinto ancorado no ponto do fabricante e cultura de prevencionismo."
+          quote: "Proteger o coletivo é sempre a primeira escolha.",
+          chips: ["NR-20", "BÁSICO", "INFLAMÁVEIS"],
+          transcript: "Conclusão. Treinamento concluído. Parabéns. Você concluiu o treinamento de NR 20, Segurança e Saúde no Trabalho com Inflamáveis e Combustíveis. Proteger o coletivo é sempre a primeira escolha."
         }
       ]
     }

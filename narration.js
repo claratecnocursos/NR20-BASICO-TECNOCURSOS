@@ -19,7 +19,7 @@
 
   var CONFIG = {
     audioDir: 'audios/',
-    audioVer: 'nr20-home-tx',
+    audioVer: 'nr20-final-tx',
 
     // espera curta: vários eventos juntos viram uma chamada só
     debounceMs: 300,
